@@ -1,0 +1,57 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "syntheticgen"
+version = "0.0.0"
+description = "Synthetic Data Generator"
+authors = ["Rohit Khazanchi"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+psycopg = {extras = ["binary", "pool"], version = "*" }
+python-dotenv = "*"
+faker = "*"
+sqlalchemy = "^2.0.40"
+pyyaml = "^6.0.2"
+pytz = "^2025.2"
+numpy = "^2.2.6"
+pandas = "^2.2.3"
+ruff = "^0.14.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+flake8 = "*"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "N",  # PEP8 naming convetions
+    "D",  # pydocstyle
+]
+ignore = [
+    "C901", # too complex
+    "W191", # indentation contains tabs
+    "D401", # imperative mood
+    "D100", # missing doc string in public module
+    "B904",
+    "D104",
+    "D103"
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"

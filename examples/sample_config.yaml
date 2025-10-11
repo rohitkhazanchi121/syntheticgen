@@ -1,0 +1,82 @@
+# ==========================
+# General Settings
+# ==========================
+
+general:
+  seed: 42                            # For reproducible data generation (optional)
+  #### Start_time, end_time, can be used in combination 
+  start_time:   # Optional: ISO format (e.g., "2024-01-01T00:00:00Z")
+  end_time:    # Optional: ISO format
+  duration_hours: 2                   # Used if either start or end not provided, will generate data for this duration from current time defaults to 1 hour
+  default_frequency: "1min"           # Optional: Default frequency for data generation per tag (e.g., "1min", "5min", "1h") If not provided it will be set to 1 minute
+
+# ==========================
+# Output Configuration
+# ==========================
+output:
+  sink: db                            # Options: db, file, kafka, http, mqtt
+  db_config:                          # Required if sink is db
+    type: postgres                    # Options: sqlite, postgres, mysql, etc.
+    host_env: DB_HOST                # Use environment variables for sensitive info
+    database_env: DB_DATABASE
+    port_env: DB_PORT
+    user_env: DB_USERNAME
+    password_env: DB_PASSWORD
+    table_name: "one_min_aggregates"
+  file_config:                        # Optional: Only if sink == file
+    format: json                     # Options: json, csv
+    path: /path/to/output.json
+  batch_size: 1000                    # Optional: For performance tuning
+
+
+# ==========================
+# Data Rules
+# ==========================
+rules:
+  entity_file: "entity.yaml"  # <-- define rules in a separate file for each tag like min, max value of the tags, number of records to be created per hour based on default frequency in general
+  # Optional Defaults - used if tag-level values are not specified
+  defaults:
+    records_per_hour: 60
+    min_value: 0
+    max_value: 100
+
+# ==========================
+# Schema Mapping
+# ==========================
+schema:
+  field_mapping:                         # (optional) Map field names in entity.yaml (rule file fields) to output schema, if not provided names from entity.yaml will be used as output field names
+    tags: internal_name                  # user header as key
+    fill_type: fill_type
+    entity: entity
+    record: records
+  record_rate_field: "records_per_hour"   # (optional) if specific number of records per entity is needed, otherwise random records will be generated in a hour.
+  range_field_mapping:                    # (optional) if range values for a metric is provided, describe that otherwise random value will be generated
+    value:
+      min: min_value
+      max: max_value
+  output_fields: ["internal_name", "timestamp", "fill_type", "value"]   # (Required) Order and inclusion of fields in output
+
+
+# ==========================
+# Overrides over specification provided in tags.yaml
+# ==========================
+
+filtering:
+  exclude_entity: []    # Optional: List of entity to exclude, if empty no entity will be excluded
+  entity_overrides:      # Optional: Override specific entity settings
+    tagsABC:
+      records_per_hour: 10
+    tagsXYZ:
+      min_value: 110
+      max_value: 180
+
+
+#####################
+# There three levels of control for every entity:
+
+    ## entity_overrides (highest priority)
+
+    ## entity.yaml
+
+    ## defaults (fallback)
+#####################
