@@ -7,17 +7,19 @@ from syntheticgen.config_loader import ConfigLoader
 from syntheticgen.entity_normalizer import EntityNormalizer
 from syntheticgen.timestamp_generator import TimestampGenerator
 from syntheticgen.result_storage import ResultStorage
+from pathlib import Path
+import inspect
 
 load_dotenv()
 
 
 class SyntheticDataGenerator:
-    def __init__(self, overrides: Optional[Dict] = None):
-        self.base_path = os.path.dirname(os.path.abspath(__file__))
-        self.config_loader = ConfigLoader(self.base_path)
+    def __init__(self, config_file: str = "config.yaml", base_path: str | None = None):
+        frame = inspect.stack()[1]
+        caller_file = frame.filename
+        self.base_path = base_path if base_path else Path(caller_file).resolve().parent
+        self.config_loader = ConfigLoader(self.base_path, config_file)
         self.config_loader.load_main_config()
-        if overrides:
-            self.config_loader.apply_overrides(overrides)
         self.config_loader.load_entity_config()
         self.config = self.config_loader.config
         self.entity_config = self.config_loader.entity_config
@@ -93,37 +95,108 @@ class SyntheticDataGenerator:
         self.range_field_mapping = schema_config.get("range_field_mapping", {})
         self.output_fields = schema_config.get("output_fields", [])
 
+    def _extract_range_info(self):
+        """Extract range field mapping info once."""
+        range_info = {}
+        for output_field, range_keys in self.range_field_mapping.items():
+            range_info[output_field] = {"min": range_keys["min"], "max": range_keys["max"], "output": output_field}
+        return range_info
+
+    def _get_range_values(self, ent_, key, vals, ent_value):
+        """Get min, max, and output column for range generation."""
+        if not vals:
+            return 0, 100, key
+
+        # Get first range info (assuming single range field)
+        info = vals
+        min_field = info["min"]
+        max_field = info["max"]
+        output_column = info["output"]
+
+        min_v = ent_.get(min_field)
+        max_v = ent_.get(max_field)
+
+        if min_v is None or max_v is None:
+            min_v = self.config["rules"]["defaults"][min_field] or np.random.uniform(0, 100)
+            max_v = self.config["rules"]["defaults"][max_field] or np.random.uniform(0, 100)
+
+            if max_v < min_v:
+                min_v, max_v = max_v, min_v
+
+            print(
+                f"Generating random min and max range value between (0,100) "
+                f"for entity {ent_value} because of missing min or max range value"
+            )
+
+        return min_v, max_v, output_column
+
+    def _build_base_record(self, ent_key, ent_value, ent_, use_field_mapping):
+        """Build the base record dictionary once per entity."""
+        if use_field_mapping:
+            rec = {self.field_mapping[ent_key]: ent_value}
+            for ent_field, output_field in self.field_mapping.items():
+                if ent_field in ent_:
+                    rec[output_field] = ent_[ent_field]
+        else:
+            rec = {ent_key: ent_value, **ent_}
+
+        return rec
+
     def generate_records(self):
         records = []
         number_of_hours = ((self.end_time - self.start_time).total_seconds()) / (60 * 60)
+
+        range_info = self._extract_range_info() if self.range_field_mapping else {}
+
+        use_field_mapping = bool(self.field_mapping)
+        filter_output = bool(self.output_fields)
+        output_fields_set = set(self.output_fields) if filter_output else None
+
+        columns = list(range_info.keys()) if range_info else []
+
         for hour in range(int(number_of_hours)):
             gen_start_time = self.start_time + timedelta(hours=hour)
-            gen_end_time = self.start_time + timedelta(hours=hour + 1)
-            for ent_key, ent_info in self.entity["entity"].items():
+            gen_end_time = gen_start_time + timedelta(hours=1)
+            for ent_key, ent_info in self.entity.items():
                 for ent_value, ent_details in ent_info.items():
-                    ent_info1 = ent_details if isinstance(ent_details, dict) else {"value": ent_details}
-                    records_per_hour = ent_info1.get(self.record_rate_field)
+                    ent_ = ent_details if isinstance(ent_details, dict) else {"value": ent_details}
+                    records_per_hour = ent_.get(self.record_rate_field)
                     timestamps = self.timestamp_generator.generate(records_per_hour, gen_start_time, gen_end_time)
-                    for ts in timestamps:
-                        rec = {}
-                        if self.field_mapping:
-                            rec[self.field_mapping[ent_key]] = ent_value
-                            for ent_field, output_field in self.field_mapping.items():
-                                if ent_field in ent_info1:
-                                    rec[output_field] = ent_info1[ent_field]
-                        else:
-                            rec[ent_key] = ent_value
-                            rec.update(ent_info1)
-                        if self.range_field_mapping:
-                            for output_field, range_keys in self.range_field_mapping.items():
-                                min_v = ent_info1.get(range_keys["min"], 0)
-                                max_v = ent_info1.get(range_keys["max"], 100)
-                                rec[output_field] = round(random.uniform(min_v, max_v), 2)
-                        rec["timestamp"] = ts.isoformat()
-                        if self.output_fields:
-                            records.append({k: rec.get(k) for k in self.output_fields})
-                        else:
-                            records.append(rec)
+                    no_of_timestamps = len(timestamps)
+
+                    if no_of_timestamps == 0:
+                        continue
+
+                    numeric_arrays = {
+                        output_col: np.round(np.random.uniform(min_v, max_v, no_of_timestamps), 2).tolist()
+                        for key, vals in range_info.items()
+                        for min_v, max_v, output_col in [self._get_range_values(ent_, key, vals, ent_value)]
+                    }
+
+                    base_rec = self._build_base_record(ent_key, ent_value, ent_, use_field_mapping)
+
+                    if numeric_arrays:
+                        batch_records = [
+                            {"timestamp": ts.isoformat(), **base_rec, **dict(zip(columns, val))}
+                            for ts, *val in zip(timestamps, *numeric_arrays.values())
+                        ]
+                    else:
+                        batch_records = [
+                            {"timestamp": ts.isoformat(), **base_rec, **{col: None for col in columns}}
+                            for ts in timestamps
+                        ]
+
+                    if filter_output:
+                        batch_records = [
+                            {
+                                **{k: v for k, v in rec.items() if k in output_fields_set},
+                                **{k: None for k in output_fields_set if k not in rec},
+                            }
+                            for rec in batch_records
+                        ]
+
+                    records.extend(batch_records)
+
         return records
 
     def store_results(self, records):

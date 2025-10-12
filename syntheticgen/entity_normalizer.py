@@ -4,7 +4,8 @@ class EntityNormalizer:
         self.config = config
 
     def normalize(self):
-        entity = self.entity_config.get("entity", {})
+        entity_key = next(iter(self.entity_config.keys()))
+        entity = self.entity_config.get(entity_key, {})
         normalization_rules = self.config.get("filtering", {})
         excluse_entity = normalization_rules.get("exclude_entity", [])
         for ent in excluse_entity:

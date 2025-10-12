@@ -7,9 +7,9 @@ load_dotenv()
 
 
 class ConfigLoader:
-    def __init__(self, base_path):
+    def __init__(self, base_path, config_file):
         self.base_path = base_path
-        self.config_path = Path(os.path.join(self.base_path, "config.yaml"))
+        self.config_path = Path(os.path.join(self.base_path, config_file))
         self.config = {}
         self.entity_config = {}
 
