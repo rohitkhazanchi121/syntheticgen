@@ -1,0 +1,7266 @@
+## This file will be replaced with metadata from a reference table in the database.
+tags:
+  '287957':
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '23197'
+    data_source: capstone
+  '287975':
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '23215'
+    data_source: capstone
+  '288851':
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '24043'
+    data_source: capstone
+  '289373':
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '24565'
+    data_source: capstone
+  '289391':
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '24583'
+    data_source: capstone
+  '289607':
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '24799'
+    data_source: capstone
+  a_line_fuel_oil_sag_gpt:
+    max_value: 0.05
+    min_value: 0.05
+    record_count: 1.0
+    fill_type: latest
+    entity: '176'
+    record: '1903'
+    data_source: capstone
+  b_line_fuel_oil_sag_gpt:
+    max_value: 0.05
+    min_value: 0.05
+    record_count: 6.0
+    fill_type: latest
+    entity: '177'
+    record: '1904'
+    data_source: capstone
+  c_line_fuel_oil_sag_gpt:
+    max_value: 0.05
+    min_value: 0.05
+    record_count: 6.0
+    fill_type: latest
+    entity: '178'
+    record: '2743'
+    data_source: capstone
+  d_line_fuel_oil_sag_gpt:
+    max_value: 0.05
+    min_value: 0.05
+    record_count: 6.0
+    fill_type: latest
+    entity: '180'
+    record: '2311'
+    data_source: capstone
+  dosage_rate_pax_sp_gpt:
+    max_value: 7.0
+    min_value: 2.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '542'
+    data_source: capstone
+  dosage_rate_pine_oil_sp_gpt:
+    max_value: 5.5
+    min_value: 2.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '544'
+    data_source: capstone
+  dosage_rate_poly_gpt:
+    max_value: 40000.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '206'
+    record: '576'
+    data_source: capstone
+  dosage_rate_poly_sp_gpt:
+    max_value: 21.0
+    min_value: 1.0
+    record_count: 2.0
+    fill_type: latest
+    entity: '206'
+    record: '570'
+    data_source: capstone
+  dosage_rate_six_sp_gpt:
+    max_value: 4.0
+    min_value: 2.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '545'
+    data_source: capstone
+  dosage_split_poly_l1r1_sp_pct:
+    max_value: 75.9898
+    min_value: 40.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1536'
+    data_source: capstone
+  dosage_split_poly_l1r2_sp_pct:
+    max_value: 30.0
+    min_value: 5.14528
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1539'
+    data_source: capstone
+  dosage_split_poly_l1s1_sp_pct:
+    max_value: 22.6755
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1541'
+    data_source: capstone
+  dosage_split_poly_l1s2_sp_pct:
+    max_value: 22.6755
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1543'
+    data_source: capstone
+  dosage_split_poly_l2r1_sp_pct:
+    max_value: 80.0
+    min_value: 41.6633
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1545'
+    data_source: capstone
+  dosage_split_poly_l2r2_sp_pct:
+    max_value: 40.0
+    min_value: 5.30872
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1548'
+    data_source: capstone
+  dosage_split_poly_l2s1_sp_pct:
+    max_value: 21.9945
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1550'
+    data_source: capstone
+  dosage_split_poly_l2s2_sp_pct:
+    max_value: 21.9945
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1552'
+    data_source: capstone
+  dosage_split_poly_l3r1_sp_pct:
+    max_value: 75.7427
+    min_value: 50.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1554'
+    data_source: capstone
+  dosage_split_poly_l3r2_sp_pct:
+    max_value: 29.7144
+    min_value: 6.00861
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1557'
+    data_source: capstone
+  dosage_split_poly_l3s1_sp_pct:
+    max_value: 20.0
+    min_value: 5.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1559'
+    data_source: capstone
+  dosage_split_poly_l3s2_sp_pct:
+    max_value: 20.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1561'
+    data_source: capstone
+  e_line_fuel_oil_sag_gpt:
+    max_value: 0.05
+    min_value: 0.05
+    record_count: 6.0
+    fill_type: latest
+    entity: '181'
+    record: '2174'
+    data_source: capstone
+  flot_feed_distribution_ph_ab_select:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '19353'
+    data_source: capstone
+  flot_feed_distribution_ph_set_point_ph:
+    max_value: 10.6
+    min_value: 9.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '1099'
+    data_source: capstone
+  flotation_bank_1_run_status_raw:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1976'
+    data_source: capstone
+  flotation_bank_2_run_status_raw:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1977'
+    data_source: capstone
+  flotation_bank_3_run_status_raw:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '206'
+    record: '1978'
+    data_source: capstone
+  lg_cleaner_tails_to_flotation_feed_box_valve_state:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '10561'
+    data_source: capstone
+  lg_cleaner_tails_to_scav_tails_pumpbox_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '10556'
+    data_source: capstone
+  line_1_rougher_1_air_flow_:
+    max_value: 1275.699
+    min_value: -0.7185903
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '2838'
+    data_source: capstone
+  line_1_rougher_1_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '176'
+    data_source: capstone
+  line_1_rougher_2_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '824'
+    data_source: capstone
+  line_1_rougher_3_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '799'
+    data_source: capstone
+  line_1_rougher_crossover_block_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '10396'
+    data_source: capstone
+  line_1_rougher_crossover_bypass_valve_state:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '10331'
+    data_source: capstone
+  line_1_scav_1_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '749'
+    data_source: capstone
+  line_1_scav_2_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '724'
+    data_source: capstone
+  line_1_scav_3_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '699'
+    data_source: capstone
+  line_1_scav_4_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '674'
+    data_source: capstone
+  line_2_rougher_1_air_flow_:
+    max_value: 1525.198
+    min_value: -0.8345337
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '13909'
+    data_source: capstone
+  line_2_rougher_1_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10815'
+    data_source: capstone
+  line_2_rougher_2_airflow_mode:
+    max_value: 2.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10840'
+    data_source: capstone
+  line_2_rougher_3_airflow_mode:
+    max_value: 2.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10865'
+    data_source: capstone
+  line_2_scav_1_airflow_mode:
+    max_value: 2.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10890'
+    data_source: capstone
+  line_2_scav_2_airflow_mode:
+    max_value: 2.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10915'
+    data_source: capstone
+  line_2_scav_3_airflow_mode:
+    max_value: 2.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10940'
+    data_source: capstone
+  line_2_scav_4_airflow_mode:
+    max_value: 2.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10965'
+    data_source: capstone
+  line_3_rougher_1_air_flow_:
+    max_value: 1852.879
+    min_value: -1.487043
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '13916'
+    data_source: capstone
+  line_3_rougher_1_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '10990'
+    data_source: capstone
+  line_3_rougher_2_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '11015'
+    data_source: capstone
+  line_3_rougher_3_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '11040'
+    data_source: capstone
+  line_3_scav_1_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '11065'
+    data_source: capstone
+  line_3_scav_2_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '11856'
+    data_source: capstone
+  line_3_scav_3_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '11881'
+    data_source: capstone
+  line_3_scav_4_airflow_mode:
+    max_value: 2.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: latest
+    entity: '207'
+    record: '11906'
+    data_source: capstone
+  osa_flotation_lg_normalization_copper_intensity:
+    max_value: 1.014231
+    min_value: 0.0
+    record_count: 33.0
+    fill_type: latest
+    entity: '183'
+    record: '2895'
+    data_source: capstone
+  osa_flotation_lg_normalization_iron_intensity:
+    max_value: 1.020535
+    min_value: 0.0
+    record_count: 33.0
+    fill_type: latest
+    entity: '183'
+    record: '2897'
+    data_source: capstone
+  osa_flotation_lg_normalization_moly_intensity:
+    max_value: 1.006706
+    min_value: 0.0
+    record_count: 33.0
+    fill_type: latest
+    entity: '183'
+    record: '2903'
+    data_source: capstone
+  osa_flotation_lg_normalization_scatter_intensity:
+    max_value: 1.010308
+    min_value: 0.0
+    record_count: 33.0
+    fill_type: latest
+    entity: '183'
+    record: '2929'
+    data_source: capstone
+  osa_scav_tls_1_results_bad_:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '183'
+    record: '3448'
+    data_source: capstone
+  osa_scav_tls_2_results_bad_:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '183'
+    record: '3468'
+    data_source: capstone
+  rougher_2_con_to_rougher_1_con_box_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '10436'
+    data_source: capstone
+  rougher_2_con_to_rougher_23_con_box_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: latest
+    entity: '207'
+    record: '10391'
+    data_source: capstone
+  a_line_feed_rate_mtph:
+    max_value: 1904.03255
+    min_value: 0.18850724749999995
+    record_count: 60.0
+    fill_type: null
+    entity: '176'
+    record: '1894'
+    data_source: capstone
+  b_line_feed_rate_mtph:
+    max_value: 1903.3368749999997
+    min_value: -0.3809932124999999
+    record_count: 60.0
+    fill_type: null
+    entity: '177'
+    record: '1873'
+    data_source: capstone
+  c_line_feed_rate_mtph:
+    max_value: 2321.4119500000006
+    min_value: -150.0
+    record_count: 59.0
+    fill_type: null
+    entity: '178'
+    record: '2678'
+    data_source: capstone
+  d_line_feed_rate_mtph:
+    max_value: 1343.8065250000004
+    min_value: 0.05502434674999999
+    record_count: 60.0
+    fill_type: null
+    entity: '180'
+    record: '2166'
+    data_source: capstone
+  dosage_rate_pax_gpt:
+    max_value: 536301567500.6362
+    min_value: -55522037646.5
+    record_count: 60.0
+    fill_type: null
+    entity: '206'
+    record: '578'
+    data_source: capstone
+  dosage_rate_pine_oil_gpt:
+    max_value: 40000.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '206'
+    record: '577'
+    data_source: capstone
+  dosage_rate_six_gpt:
+    max_value: 40000.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '206'
+    record: '575'
+    data_source: capstone
+  e_line_feed_rate_mtph:
+    max_value: 1287.8990750000003
+    min_value: -0.007097199517500001
+    record_count: 60.0
+    fill_type: null
+    entity: '181'
+    record: '2036'
+    data_source: capstone
+  flot_feed_distribution_ph:
+    max_value: 11.284749499999997
+    min_value: 9.314234999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2869'
+    data_source: capstone
+  flot_feed_distribution_ph_a_ph:
+    max_value: 11.499201764705884
+    min_value: 8.999623
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '6871'
+    data_source: capstone
+  flot_feed_distribution_ph_b_ph:
+    max_value: 11.285065769230771
+    min_value: 9.31439237037037
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '5386'
+    data_source: capstone
+  grinding_thickener_water_ratio:
+    max_value: 0.75
+    min_value: 0.17
+    record_count: 57.0
+    fill_type: null
+    entity: '179'
+    record: '5488'
+    data_source: capstone
+  hg_column_feed_pumpbox_level_controller_output_pct:
+    max_value: 79.990655
+    min_value: 0.21460811578947372
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2793'
+    data_source: capstone
+  hg_column_feed_pumpbox_level_pct:
+    max_value: 102.9500105263158
+    min_value: 5.045625
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2861'
+    data_source: capstone
+  hg_column_tails_pumpbox_1_level_controller_output_pct:
+    max_value: 99.998816
+    min_value: 1.8920237349999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2792'
+    data_source: capstone
+  hg_column_tails_pumpbox_1_level_pct:
+    max_value: 103.20171666666667
+    min_value: 18.958437500000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2860'
+    data_source: capstone
+  hg_column_tails_pumpbox_2_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2791'
+    data_source: capstone
+  hg_column_tails_pumpbox_2_level_pct:
+    max_value: 103.20808500000001
+    min_value: -1.1729429999999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2859'
+    data_source: capstone
+  high_gr_col_fd_pmpbox_lvl:
+    max_value: 102.94979310344827
+    min_value: 5.015401785714286
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4561'
+    data_source: capstone
+  l1_rghr_1_con_pmpbox_lvl:
+    max_value: 103.20210000000003
+    min_value: -1.237847222222222
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4636'
+    data_source: capstone
+  l1_rghr_2_3_con_pmpbx_lvl:
+    max_value: 103.12958421052633
+    min_value: 10.083522727272728
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4621'
+    data_source: capstone
+  l1_scav_con_pmpbox_lvl:
+    max_value: 103.14516111111115
+    min_value: -1.2548913043478263
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4591'
+    data_source: capstone
+  lg_cleaner_tails_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 6.3456319268292685
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2790'
+    data_source: capstone
+  lg_cleaner_tails_pumpbox_level_pct:
+    max_value: 103.16102222222224
+    min_value: 13.55107070731707
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2890'
+    data_source: capstone
+  line_1_rougher_1_con_pumpbox_flow:
+    max_value: 747.343406875
+    min_value: -1.2564061999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2835'
+    data_source: capstone
+  line_1_rougher_1_con_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2709'
+    data_source: capstone
+  line_1_rougher_1_con_pumpbox_level_pct:
+    max_value: 103.20000000000003
+    min_value: -1.2374999999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2816'
+    data_source: capstone
+  line_1_rougher_1_feed_density_pct_solids:
+    max_value: 51.64992095238096
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '19710'
+    data_source: capstone
+  line_1_rougher_1_feed_density_sp_pct_solids:
+    max_value: 45.5585
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '19684'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_brightness:
+    max_value: 117.462975
+    min_value: 17.97497
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18308'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_collapse:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18309'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_direction:
+    max_value: 358.5369
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18310'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_hsvpurity:
+    max_value: 31.694097499999998
+    min_value: 0.0
+    record_count: 25.0
+    fill_type: null
+    entity: '207'
+    record: '18311'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_hsvtint:
+    max_value: 179.551825
+    min_value: 0.0
+    record_count: 25.0
+    fill_type: null
+    entity: '207'
+    record: '18312'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_hsvvalue:
+    max_value: 53.218779999999995
+    min_value: 7.05141825
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18313'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_labax:
+    max_value: 6.12756525
+    min_value: 0.0007438072500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18314'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_labbx:
+    max_value: 11.4700535
+    min_value: -0.00601658675
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18315'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_labvalue:
+    max_value: 51.055585
+    min_value: 5.4676675
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18316'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_load:
+    max_value: 100.25125
+    min_value: 78.046835
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18317'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_p20:
+    max_value: 29.7975
+    min_value: 6.115
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18318'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_p50:
+    max_value: 53.465
+    min_value: 9.6275
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18319'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_p80:
+    max_value: 70.8875
+    min_value: 14.8225
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18320'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_rgbblue:
+    max_value: 122.6225
+    min_value: 17.981117500000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18321'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_rgbgreen:
+    max_value: 122.6225
+    min_value: 17.981117500000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18322'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_rgbred:
+    max_value: 132.361625
+    min_value: 17.9811175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18323'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_stability:
+    max_value: 23.7781175
+    min_value: 0.524783
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18324'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_texture:
+    max_value: 0.7643534
+    min_value: 0.049718609999999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18325'
+    data_source: capstone
+  line_1_rougher_1_froth_bubble_top_size_mm:
+    max_value: 80.1228225
+    min_value: 33.678395
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18326'
+    data_source: capstone
+  line_1_rougher_1_froth_velocity_:
+    max_value: 6.2038274583333335
+    min_value: -1.139480318181818
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2906'
+    data_source: capstone
+  line_1_rougher_1_froth_velocity_sp_cmpsec:
+    max_value: 6.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2363'
+    data_source: capstone
+  line_1_rougher_1_level_:
+    max_value: 16.655737249999998
+    min_value: -0.055941027575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2849'
+    data_source: capstone
+  line_1_rougher_1_poly_:
+    max_value: 1598.7083333333333
+    min_value: -1.6153846153846154
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2873'
+    data_source: capstone
+  line_1_rougher_23_con_pumpbox_flow:
+    max_value: 438.59928
+    min_value: -0.2794483311764706
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18180'
+    data_source: capstone
+  line_1_rougher_23_con_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 2.8883199500000005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2781'
+    data_source: capstone
+  line_1_rougher_23_con_pumpbox_level_pct:
+    max_value: 103.13043750000003
+    min_value: 9.999375
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2864'
+    data_source: capstone
+  line_1_rougher_2_air_flow_:
+    max_value: 1137.491
+    min_value: -0.3045703925
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2837'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_brightness:
+    max_value: 202.99897499999997
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18337'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_collapse:
+    max_value: 49.29
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18338'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_direction:
+    max_value: 357.5104
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18339'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_hsvpurity:
+    max_value: 2.74517075
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18340'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_hsvtint:
+    max_value: 132.251325
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18341'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_hsvvalue:
+    max_value: 79.65876250000001
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18342'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_labax:
+    max_value: 0.0027584815000000003
+    min_value: -1.2468332500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18343'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_labbx:
+    max_value: 1.1947975
+    min_value: -0.009297492999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18344'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_labvalue:
+    max_value: 80.781135
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18345'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_load:
+    max_value: 100.16914000000001
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18346'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_p20:
+    max_value: 41.510000000000005
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18347'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_p50:
+    max_value: 90.0375
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18348'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_p80:
+    max_value: 141.7475
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18349'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_rgbblue:
+    max_value: 202.9719
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18350'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_rgbgreen:
+    max_value: 203.085525
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18351'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_rgbred:
+    max_value: 202.83939999999998
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18352'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_stability:
+    max_value: 75.03111000000001
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18353'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_texture:
+    max_value: 1.559735
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18354'
+    data_source: capstone
+  line_1_rougher_2_froth_bubble_top_size_mm:
+    max_value: 182.96146666666667
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18355'
+    data_source: capstone
+  line_1_rougher_2_froth_velocity_:
+    max_value: 16.6139812
+    min_value: -2.633703173913043
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2910'
+    data_source: capstone
+  line_1_rougher_2_froth_velocity_sp_cmpsec:
+    max_value: 9.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2576'
+    data_source: capstone
+  line_1_rougher_2_level_:
+    max_value: 15.449186829268294
+    min_value: 0.046316077100000005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2848'
+    data_source: capstone
+  line_1_rougher_2_pax_:
+    max_value: 749.486565
+    min_value: -0.411328125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2874'
+    data_source: capstone
+  line_1_rougher_2_poly_:
+    max_value: 744.4868421052631
+    min_value: -1.3392857142857142
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2872'
+    data_source: capstone
+  line_1_rougher_3_air_flow_:
+    max_value: 887.9044130434785
+    min_value: -0.07958475275000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2836'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_brightness:
+    max_value: 114.07716666666666
+    min_value: 20.596517499999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18366'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_collapse:
+    max_value: 11.69
+    min_value: 1.5699999999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18367'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_direction:
+    max_value: 305.57105
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18368'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_hsvpurity:
+    max_value: 26.7363225
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18369'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_hsvtint:
+    max_value: 193.6288
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18370'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_hsvvalue:
+    max_value: 51.50200600000001
+    min_value: 7.5305295
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18371'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_labax:
+    max_value: 1.7937619333333332
+    min_value: -4.68202575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18372'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_labbx:
+    max_value: 7.75441425
+    min_value: -0.596372422
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18373'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_labvalue:
+    max_value: 50.74134
+    min_value: 6.23524325
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18374'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_load:
+    max_value: 100.24154999999999
+    min_value: 84.4691725
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18375'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_p20:
+    max_value: 9.6475
+    min_value: 6.085
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18376'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_p50:
+    max_value: 20.19
+    min_value: 9.477500000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18377'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_p80:
+    max_value: 48.162499999999994
+    min_value: 14.907499999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18378'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_rgbblue:
+    max_value: 119.6896
+    min_value: 19.2028475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18379'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_rgbgreen:
+    max_value: 121.00710000000001
+    min_value: 19.2028475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18380'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_rgbred:
+    max_value: 124.3715
+    min_value: 19.2028475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18381'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_stability:
+    max_value: 21.519436666666667
+    min_value: 0.68579955
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18382'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_texture:
+    max_value: 0.670508875
+    min_value: 0.133798575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18383'
+    data_source: capstone
+  line_1_rougher_3_froth_bubble_top_size_mm:
+    max_value: 70.09161499999999
+    min_value: 28.7181575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18384'
+    data_source: capstone
+  line_1_rougher_3_froth_velocity_:
+    max_value: 9.96670908695652
+    min_value: -0.12708259384615384
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2914'
+    data_source: capstone
+  line_1_rougher_3_froth_velocity_sp_cmpsec:
+    max_value: 7.039520000000001
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2651'
+    data_source: capstone
+  line_1_rougher_3_level_:
+    max_value: 15.586275714285714
+    min_value: 0.03418049217499999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2809'
+    data_source: capstone
+  line_1_scav_1_air_flow_:
+    max_value: 618.9849370370371
+    min_value: -0.15323128974999994
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2839'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_brightness:
+    max_value: 143.1887
+    min_value: 53.551849999999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18395'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_collapse:
+    max_value: 19.4825
+    min_value: 1.0999999999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18396'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_direction:
+    max_value: 355.95046666666667
+    min_value: 1.0955538
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18397'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_hsvpurity:
+    max_value: 14.943267500000001
+    min_value: 2.2428655
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18398'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_hsvtint:
+    max_value: 310.75515
+    min_value: 39.466045
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18399'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_hsvvalue:
+    max_value: 55.9854675
+    min_value: 18.392713249999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18400'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_labax:
+    max_value: 1.58013225
+    min_value: 0.4513013925
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18401'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_labbx:
+    max_value: 1.8279659999999998
+    min_value: -0.7303333249999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18402'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_labvalue:
+    max_value: 58.029625
+    min_value: 18.7675445
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18403'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_load:
+    max_value: 99.81399
+    min_value: 59.35448
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18404'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_p20:
+    max_value: 33.1325
+    min_value: 13.885
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18405'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_p50:
+    max_value: 66.46000000000001
+    min_value: 18.275000000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18406'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_p80:
+    max_value: 128.9575
+    min_value: 26.5725
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18407'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_rgbblue:
+    max_value: 141.26495
+    min_value: 45.150729
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18408'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_rgbgreen:
+    max_value: 139.57117499999998
+    min_value: 45.5169205
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18409'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_rgbred:
+    max_value: 142.49992500000002
+    min_value: 46.836774750000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18410'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_stability:
+    max_value: 41.21489
+    min_value: 7.278519
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18411'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_texture:
+    max_value: 0.787473175
+    min_value: 0.0594019625
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18412'
+    data_source: capstone
+  line_1_scav_1_froth_bubble_top_size_mm:
+    max_value: 150.540175
+    min_value: 45.76961
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18413'
+    data_source: capstone
+  line_1_scav_1_froth_velocity_:
+    max_value: 8.112572909090908
+    min_value: 0.13535685
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2913'
+    data_source: capstone
+  line_1_scav_1_froth_velocity_sp_cmpsec:
+    max_value: 6.5
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2626'
+    data_source: capstone
+  line_1_scav_1_level_:
+    max_value: 15.467190256410257
+    min_value: 0.6313856025000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2815'
+    data_source: capstone
+  line_1_scav_1_pax_:
+    max_value: 475.96251500000005
+    min_value: -0.12500000000000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2870'
+    data_source: capstone
+  line_1_scav_1_poly_:
+    max_value: 444.64276842105255
+    min_value: -0.22664473684210523
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2868'
+    data_source: capstone
+  line_1_scav_2_air_flow_:
+    max_value: 640.8666
+    min_value: 0.09668418129032257
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2834'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_brightness:
+    max_value: 162.7329
+    min_value: 42.176120000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18424'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_collapse:
+    max_value: 13.05
+    min_value: 1.1825
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18425'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_direction:
+    max_value: 358.6049
+    min_value: 1.9248049249999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18426'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_hsvpurity:
+    max_value: 13.589949999999998
+    min_value: 1.1970252999999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18427'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_hsvtint:
+    max_value: 276.5575666666667
+    min_value: 39.4301835
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18428'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_hsvvalue:
+    max_value: 66.35937
+    min_value: 16.65505
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18429'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_labax:
+    max_value: 1.1915899749999999
+    min_value: 0.07180575750000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18430'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_labbx:
+    max_value: 2.233864
+    min_value: -1.151329775
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18431'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_labvalue:
+    max_value: 67.6712725
+    min_value: 16.735885
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18432'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_load:
+    max_value: 99.47243499999999
+    min_value: 34.85701666666666
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18433'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_p20:
+    max_value: 15.3925
+    min_value: 11.395
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18434'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_p50:
+    max_value: 28.6725
+    min_value: 15.5025
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18435'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_p80:
+    max_value: 93.99000000000001
+    min_value: 23.787499999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18436'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_rgbblue:
+    max_value: 164.369125
+    min_value: 41.2600175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18437'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_rgbgreen:
+    max_value: 166.3806
+    min_value: 41.3060125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18438'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_rgbred:
+    max_value: 168.82085
+    min_value: 41.9444625
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18439'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_stability:
+    max_value: 52.167570000000005
+    min_value: 4.29401925
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18440'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_texture:
+    max_value: 0.51508155
+    min_value: 0.046007725
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18441'
+    data_source: capstone
+  line_1_scav_2_froth_bubble_top_size_mm:
+    max_value: 123.50945
+    min_value: 45.681354999999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18442'
+    data_source: capstone
+  line_1_scav_2_froth_velocity_:
+    max_value: 8.524566476190477
+    min_value: 0.07387872291666667
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2912'
+    data_source: capstone
+  line_1_scav_2_froth_velocity_sp_cmpsec:
+    max_value: 5.37621
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2601'
+    data_source: capstone
+  line_1_scav_2_level_:
+    max_value: 17.623359999999998
+    min_value: 3.832781175000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2814'
+    data_source: capstone
+  line_1_scav_2_pax_:
+    max_value: 141.98437
+    min_value: -2.920486111111111
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2882'
+    data_source: capstone
+  line_1_scav_2_poly_:
+    max_value: 458.04282
+    min_value: -0.11374999999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2867'
+    data_source: capstone
+  line_1_scav_3_air_flow_:
+    max_value: 662.7864185185185
+    min_value: 0.231994735
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2833'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_brightness:
+    max_value: 202.621025
+    min_value: 2.19227125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18453'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_collapse:
+    max_value: 23.3275
+    min_value: 1.2
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18454'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_direction:
+    max_value: 352.9305
+    min_value: 12.679945333333334
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18455'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_hsvpurity:
+    max_value: 5.492481
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18456'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_hsvtint:
+    max_value: 293.50725
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18457'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_hsvvalue:
+    max_value: 81.227125
+    min_value: 0.8454868
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18458'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_labax:
+    max_value: 2.5219355
+    min_value: 8.0496755e-05
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18459'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_labbx:
+    max_value: 1.36917025
+    min_value: -3.1232592500000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18460'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_labvalue:
+    max_value: 81.15532999999999
+    min_value: 0.59168025
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18461'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_load:
+    max_value: 100.16836666666666
+    min_value: 0.2174263
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18462'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_p20:
+    max_value: 23.125
+    min_value: 10.793333333333331
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18463'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_p50:
+    max_value: 56.845
+    min_value: 14.910000000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18464'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_p80:
+    max_value: 108.145
+    min_value: 21.82
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18465'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_rgbblue:
+    max_value: 207.128125
+    min_value: 2.15599125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18466'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_rgbgreen:
+    max_value: 200.657425
+    min_value: 2.15599125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18467'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_rgbred:
+    max_value: 203.22165
+    min_value: 2.1559912499999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18468'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_stability:
+    max_value: 71.34487000000001
+    min_value: 0.01070190175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18469'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_texture:
+    max_value: 0.8145613
+    min_value: 0.03267165
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18470'
+    data_source: capstone
+  line_1_scav_3_froth_bubble_top_size_mm:
+    max_value: 140.243725
+    min_value: 41.02247
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18471'
+    data_source: capstone
+  line_1_scav_3_froth_velocity_:
+    max_value: 8.584877999999998
+    min_value: 0.05726719909090909
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2911'
+    data_source: capstone
+  line_1_scav_3_froth_velocity_sp_cmpsec:
+    max_value: 5.04013
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2388'
+    data_source: capstone
+  line_1_scav_3_level_:
+    max_value: 18.362975238095242
+    min_value: -0.2364296825
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2810'
+    data_source: capstone
+  line_1_scav_4_air_flow_:
+    max_value: 614.1786644444444
+    min_value: -0.17502955499999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2832'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_brightness:
+    max_value: 152.66616666666667
+    min_value: 36.298015
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18482'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_collapse:
+    max_value: 19.2375
+    min_value: 0.9366666666666666
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18483'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_direction:
+    max_value: 314.07214999999997
+    min_value: 30.5631575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18484'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_hsvpurity:
+    max_value: 12.354084
+    min_value: 0.53636499
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18485'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_hsvtint:
+    max_value: 314.73642500000005
+    min_value: 44.06172333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18486'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_hsvvalue:
+    max_value: 60.0951975
+    min_value: 13.933895
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18487'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_labax:
+    max_value: 1.30836375
+    min_value: 0.17969345
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18488'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_labbx:
+    max_value: 1.3692133333333334
+    min_value: -2.98618075
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18489'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_labvalue:
+    max_value: 63.023762500000004
+    min_value: 13.5939375
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18490'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_load:
+    max_value: 99.99799
+    min_value: 46.24318
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18491'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_p20:
+    max_value: 29.665
+    min_value: 10.452499999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18492'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_p50:
+    max_value: 51.5075
+    min_value: 14.030000000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18493'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_p80:
+    max_value: 124.4825
+    min_value: 19.087500000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18494'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_rgbblue:
+    max_value: 153.04316666666668
+    min_value: 35.4635775
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18495'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_rgbgreen:
+    max_value: 152.45727499999998
+    min_value: 34.85785
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18496'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_rgbred:
+    max_value: 152.84165
+    min_value: 34.9205
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18497'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_stability:
+    max_value: 40.449397499999996
+    min_value: 2.6031582500000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18498'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_texture:
+    max_value: 0.9030891999999999
+    min_value: 0.08147167250000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18499'
+    data_source: capstone
+  line_1_scav_4_froth_bubble_top_size_mm:
+    max_value: 133.761575
+    min_value: 33.54913
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18500'
+    data_source: capstone
+  line_1_scav_4_froth_velocity_:
+    max_value: 8.504143045454548
+    min_value: 0.07380986909090911
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2915'
+    data_source: capstone
+  line_1_scav_4_froth_velocity_sp_cmpsec:
+    max_value: 4.64226
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2551'
+    data_source: capstone
+  line_1_scav_4_level_:
+    max_value: 17.462059500000002
+    min_value: 1.5706223499999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2813'
+    data_source: capstone
+  line_1_scav_con_pumpbox_flow:
+    max_value: 1598.3999999999999
+    min_value: -0.35833333333333334
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18179'
+    data_source: capstone
+  line_1_scav_con_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 20.4936153
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2783'
+    data_source: capstone
+  line_1_scav_con_pumpbox_level_pct:
+    max_value: 103.14534166666668
+    min_value: -1.2562499999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '2863'
+    data_source: capstone
+  line_23_rougher_1_con_pumpbox_flow:
+    max_value: 106.51982142857142
+    min_value: -0.15187500000000007
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13959'
+    data_source: capstone
+  line_23_rougher_1_con_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13901'
+    data_source: capstone
+  line_23_rougher_1_con_pumpbox_level_pct:
+    max_value: 103.25711428571431
+    min_value: -0.9338362068965517
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13983'
+    data_source: capstone
+  line_23_rougher_23_con_pumpbox_flow:
+    max_value: 757.2101941176471
+    min_value: -0.33199418750000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13960'
+    data_source: capstone
+  line_23_rougher_23_con_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13902'
+    data_source: capstone
+  line_23_rougher_23_con_pumpbox_level_pct:
+    max_value: 103.21877142857146
+    min_value: 0.5380208333333334
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '11742'
+    data_source: capstone
+  line_23_scav_con_pumpbox_flow:
+    max_value: 2997.4064999999996
+    min_value: -1.53125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13961'
+    data_source: capstone
+  line_23_scav_con_pumpbox_level_controller_output_pct:
+    max_value: 100.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13903'
+    data_source: capstone
+  line_23_scav_con_pumpbox_level_pct:
+    max_value: 103.21752000000002
+    min_value: -1.2475961538461537
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '11743'
+    data_source: capstone
+  line_2_3_rghr_1_con_pmpbx_lvl:
+    max_value: 103.25801428571431
+    min_value: -0.921875
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '15808'
+    data_source: capstone
+  line_2_3_scav_con_pmpbx_level:
+    max_value: 103.2155047619048
+    min_value: -1.2482142857142857
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '15853'
+    data_source: capstone
+  line_2_rougher_1_feed_density_pct_solids:
+    max_value: 48.17124275000001
+    min_value: 0.6765389068965517
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '19774'
+    data_source: capstone
+  line_2_rougher_1_feed_density_sp_pct_solids:
+    max_value: 45.6311
+    min_value: 29.6909
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '19724'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_brightness:
+    max_value: 148.504875
+    min_value: 77.705525
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18511'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_collapse:
+    max_value: 13.567499999999999
+    min_value: 1.1199999999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18512'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_direction:
+    max_value: 345.5432
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18513'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_hsvpurity:
+    max_value: 15.070686
+    min_value: 6.6726815
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18514'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_hsvtint:
+    max_value: 274.21700000000004
+    min_value: 12.26416175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18515'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_hsvvalue:
+    max_value: 62.70273
+    min_value: 31.382616499999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18516'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_labax:
+    max_value: 5.883287
+    min_value: 1.7014055
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18517'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_labbx:
+    max_value: 6.614948199999999
+    min_value: 0.06948889333333334
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18518'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_labvalue:
+    max_value: 61.269065
+    min_value: 30.7868175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18519'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_load:
+    max_value: 100.2564
+    min_value: 54.0046875
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18520'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_p20:
+    max_value: 8.1175
+    min_value: 5.9025
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18521'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_p50:
+    max_value: 12.224999999999998
+    min_value: 9.0175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18522'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_p80:
+    max_value: 22.4725
+    min_value: 12.286666666666667
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18523'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_rgbblue:
+    max_value: 147.4196
+    min_value: 69.608111
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18524'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_rgbgreen:
+    max_value: 145.5555
+    min_value: 73.029802
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18525'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_rgbred:
+    max_value: 159.89170000000001
+    min_value: 80.0254305
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18526'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_stability:
+    max_value: 39.339637499999995
+    min_value: 10.893325
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18527'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_texture:
+    max_value: 0.61149345
+    min_value: 0.0840873125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18528'
+    data_source: capstone
+  line_2_rougher_1_froth_bubble_top_size_mm:
+    max_value: 44.176792500000005
+    min_value: 21.858907499999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18529'
+    data_source: capstone
+  line_2_rougher_1_froth_velocity_:
+    max_value: 15.47943525
+    min_value: -0.8361404825000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13935'
+    data_source: capstone
+  line_2_rougher_1_froth_velocity_sp_cmpsec:
+    max_value: 10.0
+    min_value: 2.04182
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '12890'
+    data_source: capstone
+  line_2_rougher_1_level_:
+    max_value: 15.940102413793102
+    min_value: 1.1098501033333334
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13815'
+    data_source: capstone
+  line_2_rougher_1_poly_:
+    max_value: 1624.6351351351352
+    min_value: -1.0952380952380953
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13967'
+    data_source: capstone
+  line_2_rougher_2_air_flow_:
+    max_value: 1064.7431500000002
+    min_value: -0.5180082842105265
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13910'
+    data_source: capstone
+  line_2_rougher_2_con_to_rougher_1_con_box_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17805'
+    data_source: capstone
+  line_2_rougher_2_con_to_rougher_23_con_box_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17800'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_brightness:
+    max_value: 116.446675
+    min_value: 91.95284999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18540'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_collapse:
+    max_value: 12.6325
+    min_value: 1.9033333333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18541'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_direction:
+    max_value: 352.01185
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18542'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_hsvpurity:
+    max_value: 12.878214999999999
+    min_value: 3.27298795
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18543'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_hsvtint:
+    max_value: 189.44055
+    min_value: 68.59298
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18544'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_hsvvalue:
+    max_value: 46.8062325
+    min_value: 21.230860824999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18545'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_labax:
+    max_value: 0.1834958725
+    min_value: -3.2875414999999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18546'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_labbx:
+    max_value: 5.3312815
+    min_value: -1.35380425
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18547'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_labvalue:
+    max_value: 49.3179175
+    min_value: 22.245843999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18548'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_load:
+    max_value: 98.75519249999999
+    min_value: 77.52404
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18549'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_p20:
+    max_value: 10.596666666666668
+    min_value: 5.993333333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18550'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_p50:
+    max_value: 18.7175
+    min_value: 9.156666666666668
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18551'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_p80:
+    max_value: 37.715
+    min_value: 13.2075
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18552'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_rgbblue:
+    max_value: 116.713875
+    min_value: 52.177226250000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18553'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_rgbgreen:
+    max_value: 117.50727499999999
+    min_value: 53.203083
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18554'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_rgbred:
+    max_value: 117.26617499999999
+    min_value: 52.55419775
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18555'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_stability:
+    max_value: 22.33369
+    min_value: 13.740936666666665
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18556'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_texture:
+    max_value: 0.9909844
+    min_value: 0.20420195000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18557'
+    data_source: capstone
+  line_2_rougher_2_froth_bubble_top_size_mm:
+    max_value: 54.231925000000004
+    min_value: 24.28462
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18558'
+    data_source: capstone
+  line_2_rougher_2_froth_velocity_:
+    max_value: 13.69556894736842
+    min_value: -0.3770945957500001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13936'
+    data_source: capstone
+  line_2_rougher_2_froth_velocity_sp_cmpsec:
+    max_value: 12.0
+    min_value: 2.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '11245'
+    data_source: capstone
+  line_2_rougher_2_level_:
+    max_value: 15.882508749999996
+    min_value: 2.9640591249999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13816'
+    data_source: capstone
+  line_2_rougher_2_pax_:
+    max_value: 1129.9266842105262
+    min_value: -0.5107142857142857
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13966'
+    data_source: capstone
+  line_2_rougher_2_poly_:
+    max_value: 624.9545454545455
+    min_value: -0.8676470588235294
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13968'
+    data_source: capstone
+  line_2_rougher_3_air_flow_:
+    max_value: 830.6356150000001
+    min_value: -2.1413242500000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13911'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_brightness:
+    max_value: 114.97232500000001
+    min_value: 90.08750500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18569'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_collapse:
+    max_value: 13.504999999999999
+    min_value: 1.45
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18570'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_direction:
+    max_value: 327.387275
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18571'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_hsvpurity:
+    max_value: 10.71370275
+    min_value: 2.84093575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18572'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_hsvtint:
+    max_value: 207.08175
+    min_value: 62.5897815
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18573'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_hsvvalue:
+    max_value: 50.396627499999994
+    min_value: 22.200615
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18574'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_labax:
+    max_value: 0.5698995575
+    min_value: -2.4272745000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18575'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_labbx:
+    max_value: 3.85399125
+    min_value: -2.57878825
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18576'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_labvalue:
+    max_value: 51.3642775
+    min_value: 23.298603
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18577'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_load:
+    max_value: 99.97296500000002
+    min_value: 84.50489999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18578'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_p20:
+    max_value: 9.14
+    min_value: 5.863333333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18579'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_p50:
+    max_value: 14.852500000000001
+    min_value: 8.840000000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18580'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_p80:
+    max_value: 26.68
+    min_value: 11.785
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18581'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_rgbblue:
+    max_value: 126.88225
+    min_value: 54.434167
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18582'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_rgbgreen:
+    max_value: 122.72035000000001
+    min_value: 56.1797455
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18583'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_rgbred:
+    max_value: 122.01174999999999
+    min_value: 54.893280000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18584'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_stability:
+    max_value: 23.3341625
+    min_value: 13.93572
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18585'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_texture:
+    max_value: 0.842153
+    min_value: 0.304601075
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18586'
+    data_source: capstone
+  line_2_rougher_3_froth_bubble_top_size_mm:
+    max_value: 54.961637499999995
+    min_value: 19.77148
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18587'
+    data_source: capstone
+  line_2_rougher_3_froth_velocity_:
+    max_value: 16.947986
+    min_value: -1.61762245
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13937'
+    data_source: capstone
+  line_2_rougher_3_froth_velocity_sp_cmpsec:
+    max_value: 7.0
+    min_value: 2.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '11270'
+    data_source: capstone
+  line_2_rougher_3_level_:
+    max_value: 16.020981749999994
+    min_value: -0.24096335249999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13817'
+    data_source: capstone
+  line_2_rougher_crossover_block_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17790'
+    data_source: capstone
+  line_2_rougher_crossover_bypass_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17795'
+    data_source: capstone
+  line_2_scav_1_air_flow_:
+    max_value: 609.5995925
+    min_value: -1.0453724975000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13912'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_brightness:
+    max_value: 148.12685000000002
+    min_value: 53.8551375
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18598'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_collapse:
+    max_value: 15.707500000000001
+    min_value: 1.32
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18599'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_direction:
+    max_value: 324.87483333333336
+    min_value: 33.232420000000005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18600'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_hsvpurity:
+    max_value: 17.836613333333332
+    min_value: 1.0276267700000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18601'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_hsvtint:
+    max_value: 296.223525
+    min_value: 95.685135
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18602'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_hsvvalue:
+    max_value: 59.3187225
+    min_value: 21.4650775
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18603'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_labax:
+    max_value: 1.1981695
+    min_value: 0.19122866666666663
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18604'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_labbx:
+    max_value: 0.5614653250000001
+    min_value: -1.84850505
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18605'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_labvalue:
+    max_value: 61.65139
+    min_value: 22.0145425
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18606'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_load:
+    max_value: 99.986615
+    min_value: 52.614667499999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18607'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_p20:
+    max_value: 14.55
+    min_value: 10.7775
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18608'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_p50:
+    max_value: 23.02
+    min_value: 14.62
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18609'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_p80:
+    max_value: 84.82249999999999
+    min_value: 20.11
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18610'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_rgbblue:
+    max_value: 151.03015
+    min_value: 53.7698725
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18611'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_rgbgreen:
+    max_value: 149.32557500000001
+    min_value: 52.46284
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18612'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_rgbred:
+    max_value: 150.34725
+    min_value: 54.4990725
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18613'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_stability:
+    max_value: 34.69243
+    min_value: 4.45119125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18614'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_texture:
+    max_value: 0.38237745
+    min_value: 0.03938739
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18615'
+    data_source: capstone
+  line_2_scav_1_froth_bubble_top_size_mm:
+    max_value: 110.60537499999998
+    min_value: 36.17174
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18616'
+    data_source: capstone
+  line_2_scav_1_froth_velocity_:
+    max_value: 6.978986315789473
+    min_value: 0.029941947500000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13938'
+    data_source: capstone
+  line_2_scav_1_froth_velocity_sp_cmpsec:
+    max_value: 6.0
+    min_value: 0.9556319999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '11295'
+    data_source: capstone
+  line_2_scav_1_level_:
+    max_value: 16.241401999999994
+    min_value: 1.6247844249999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13818'
+    data_source: capstone
+  line_2_scav_1_pax_:
+    max_value: 837.4460166666667
+    min_value: -0.1733333333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13970'
+    data_source: capstone
+  line_2_scav_1_poly_:
+    max_value: 381.97162702702695
+    min_value: -0.35546875
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13972'
+    data_source: capstone
+  line_2_scav_2_air_flow_:
+    max_value: 698.7674399999999
+    min_value: 0.028075415419999993
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13913'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_brightness:
+    max_value: 187.102975
+    min_value: 29.4189525
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18627'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_collapse:
+    max_value: 13.335
+    min_value: 1.06
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18628'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_direction:
+    max_value: 353.98485000000005
+    min_value: 4.077112233333334
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18629'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_hsvpurity:
+    max_value: 28.289270000000002
+    min_value: 1.19647355
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18630'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_hsvtint:
+    max_value: 287.25355
+    min_value: 58.5629785
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18631'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_hsvvalue:
+    max_value: 75.30614
+    min_value: 12.79872
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18632'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_labax:
+    max_value: 1.373145
+    min_value: -0.906112675
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18633'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_labbx:
+    max_value: 1.76071175
+    min_value: -1.77535625
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18634'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_labvalue:
+    max_value: 76.57285666666667
+    min_value: 11.0586775
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18635'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_load:
+    max_value: 98.71131249999999
+    min_value: 13.047204666666667
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18636'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_p20:
+    max_value: 19.23
+    min_value: 12.3175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18637'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_p50:
+    max_value: 35.92666666666667
+    min_value: 16.646666666666665
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18638'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_p80:
+    max_value: 68.42
+    min_value: 24.150000000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18639'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_rgbblue:
+    max_value: 191.86386666666667
+    min_value: 32.178960000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18640'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_rgbgreen:
+    max_value: 188.6229
+    min_value: 29.273315000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18641'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_rgbred:
+    max_value: 190.4186
+    min_value: 28.4470475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18642'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_stability:
+    max_value: 62.66786
+    min_value: 2.9233585
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18643'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_texture:
+    max_value: 0.5022385
+    min_value: 0.04429493
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18644'
+    data_source: capstone
+  line_2_scav_2_froth_bubble_top_size_mm:
+    max_value: 112.64525
+    min_value: 44.798731999999994
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18645'
+    data_source: capstone
+  line_2_scav_2_froth_velocity_:
+    max_value: 9.793316974999998
+    min_value: 0.029533193000000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13939'
+    data_source: capstone
+  line_2_scav_2_froth_velocity_sp_cmpsec:
+    max_value: 6.244970000000001
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '12927'
+    data_source: capstone
+  line_2_scav_2_level_:
+    max_value: 16.378948249999997
+    min_value: 0.5883183472500001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13819'
+    data_source: capstone
+  line_2_scav_2_pax_:
+    max_value: 444.1854307692308
+    min_value: -0.29154411764705884
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13971'
+    data_source: capstone
+  line_2_scav_2_poly_:
+    max_value: 381.39156749999995
+    min_value: -0.5785984848484849
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13973'
+    data_source: capstone
+  line_2_scav_3_air_flow_:
+    max_value: 652.0557725000002
+    min_value: -0.0978754685
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13914'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_brightness:
+    max_value: 181.956125
+    min_value: 36.979305
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18656'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_collapse:
+    max_value: 15.405
+    min_value: 1.0625
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18657'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_direction:
+    max_value: 303.57505000000003
+    min_value: 9.928024
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18658'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_hsvpurity:
+    max_value: 8.242992
+    min_value: 1.17344025
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18659'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_hsvtint:
+    max_value: 289.25637500000005
+    min_value: 39.093021
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18660'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_hsvvalue:
+    max_value: 72.88887
+    min_value: 14.0728525
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18661'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_labax:
+    max_value: 1.84588225
+    min_value: -0.3585847
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18662'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_labbx:
+    max_value: 1.835758
+    min_value: -1.0863113666666668
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18663'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_labvalue:
+    max_value: 73.0045875
+    min_value: 14.155475000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18664'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_load:
+    max_value: 99.90692999999999
+    min_value: 25.40931
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18665'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_p20:
+    max_value: 15.6625
+    min_value: 11.1175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18666'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_p50:
+    max_value: 22.189999999999998
+    min_value: 14.695
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18667'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_p80:
+    max_value: 87.6525
+    min_value: 19.766666666666666
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18668'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_rgbblue:
+    max_value: 179.18275
+    min_value: 34.677197500000005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18669'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_rgbgreen:
+    max_value: 181.436225
+    min_value: 35.805115
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18670'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_rgbred:
+    max_value: 185.022625
+    min_value: 35.490925000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18671'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_stability:
+    max_value: 79.403025
+    min_value: 3.3018929999999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18672'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_texture:
+    max_value: 0.46241004999999996
+    min_value: 0.054025682500000005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18673'
+    data_source: capstone
+  line_2_scav_3_froth_bubble_top_size_mm:
+    max_value: 118.85115
+    min_value: 35.89383333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18674'
+    data_source: capstone
+  line_2_scav_3_froth_velocity_:
+    max_value: 7.605475024999999
+    min_value: 0.13407973024999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13940'
+    data_source: capstone
+  line_2_scav_3_froth_velocity_sp_cmpsec:
+    max_value: 5.82271
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '12952'
+    data_source: capstone
+  line_2_scav_3_level_:
+    max_value: 14.259998750000003
+    min_value: 4.10565002631579
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13820'
+    data_source: capstone
+  line_2_scav_4_air_flow_:
+    max_value: 652.66213
+    min_value: -0.20164573999999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13915'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_brightness:
+    max_value: 151.905625
+    min_value: 28.643015000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18685'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_collapse:
+    max_value: 21.75666666666667
+    min_value: 1.115
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18686'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_direction:
+    max_value: 339.820425
+    min_value: 41.39768
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18687'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_hsvpurity:
+    max_value: 13.61646
+    min_value: 1.02388045
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18688'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_hsvtint:
+    max_value: 312.2286666666667
+    min_value: 16.34469
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18689'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_hsvvalue:
+    max_value: 63.67715333333334
+    min_value: 10.8339175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18690'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_labax:
+    max_value: 1.6041676666666669
+    min_value: -0.004360512500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18691'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_labbx:
+    max_value: 1.810904
+    min_value: -0.8357305500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18692'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_labvalue:
+    max_value: 65.52605
+    min_value: 10.098324
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18693'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_load:
+    max_value: 99.89608999999999
+    min_value: 44.507515000000005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18694'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_p20:
+    max_value: 22.099999999999998
+    min_value: 10.555
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18695'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_p50:
+    max_value: 35.336666666666666
+    min_value: 14.1875
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18696'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_p80:
+    max_value: 78.75500000000001
+    min_value: 19.2575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18697'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_rgbblue:
+    max_value: 159.73090000000002
+    min_value: 27.579885
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18698'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_rgbgreen:
+    max_value: 158.86516666666665
+    min_value: 27.535857500000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18699'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_rgbred:
+    max_value: 162.21333333333334
+    min_value: 27.494902500000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18700'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_stability:
+    max_value: 41.173567500000004
+    min_value: 1.6280420000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18701'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_texture:
+    max_value: 1.157747
+    min_value: 0.19144575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18702'
+    data_source: capstone
+  line_2_scav_4_froth_bubble_top_size_mm:
+    max_value: 102.713975
+    min_value: 36.059417499999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18703'
+    data_source: capstone
+  line_2_scav_4_froth_velocity_:
+    max_value: 5.719193823529413
+    min_value: 0.17745763513513516
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13941'
+    data_source: capstone
+  line_2_scav_4_froth_velocity_sp_cmpsec:
+    max_value: 5.46647
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '12977'
+    data_source: capstone
+  line_2_scav_4_level_:
+    max_value: 16.280904
+    min_value: 5.402054527777777
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13821'
+    data_source: capstone
+  line_3_rougher_1_feed_density_pct_solids:
+    max_value: 100.0
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '19775'
+    data_source: capstone
+  line_3_rougher_1_feed_density_sp_pct_solids:
+    max_value: 37.6954
+    min_value: 28.3073
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '19749'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_brightness:
+    max_value: 194.22662499999998
+    min_value: 17.8022225
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18714'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_collapse:
+    max_value: 25.442500000000003
+    min_value: 0.9033333333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18715'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_direction:
+    max_value: 358.6466666666667
+    min_value: 0.0
+    record_count: 50.0
+    fill_type: null
+    entity: '207'
+    record: '18716'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_hsvpurity:
+    max_value: 31.683535
+    min_value: 0.0
+    record_count: 57.0
+    fill_type: null
+    entity: '207'
+    record: '18717'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_hsvtint:
+    max_value: 236.08703333333335
+    min_value: 0.0
+    record_count: 57.0
+    fill_type: null
+    entity: '207'
+    record: '18718'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_hsvvalue:
+    max_value: 76.9482625
+    min_value: 6.1083592499999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18719'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_labax:
+    max_value: 4.372108666666667
+    min_value: -6.3721646666666665
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18720'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_labbx:
+    max_value: 4.803765499999999
+    min_value: -5.393666499999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18721'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_labvalue:
+    max_value: 78.5781225
+    min_value: 4.716778000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18722'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_load:
+    max_value: 100.29079666666667
+    min_value: 0.0
+    record_count: 54.0
+    fill_type: null
+    entity: '207'
+    record: '18723'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_p20:
+    max_value: 17.296666666666667
+    min_value: 5.6899999999999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18724'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_p50:
+    max_value: 32.115
+    min_value: 8.285
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18725'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_p80:
+    max_value: 74.30499999999999
+    min_value: 11.395
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18726'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_rgbblue:
+    max_value: 194.3999
+    min_value: 15.57631575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18727'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_rgbgreen:
+    max_value: 194.20435
+    min_value: 15.57631575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18728'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_rgbred:
+    max_value: 195.337975
+    min_value: 15.576315750000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18729'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_stability:
+    max_value: 63.373275
+    min_value: 0.52002745
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18730'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_texture:
+    max_value: 1.6227285
+    min_value: 0.06949571500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18731'
+    data_source: capstone
+  line_3_rougher_1_froth_bubble_top_size_mm:
+    max_value: 85.0055725
+    min_value: 22.587463333333332
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18732'
+    data_source: capstone
+  line_3_rougher_1_froth_velocity_:
+    max_value: 19.04714750000001
+    min_value: 0.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13942'
+    data_source: capstone
+  line_3_rougher_1_froth_velocity_sp_cmpsec:
+    max_value: 9.0
+    min_value: 3.0525
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13002'
+    data_source: capstone
+  line_3_rougher_1_level_:
+    max_value: 15.887372999999997
+    min_value: 4.575314175000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13822'
+    data_source: capstone
+  line_3_rougher_1_poly_:
+    max_value: 1219.0384615384614
+    min_value: -56.333333333333336
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13976'
+    data_source: capstone
+  line_3_rougher_2_air_flow_:
+    max_value: 714.7792900000001
+    min_value: -0.3620333825
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13917'
+    data_source: capstone
+  line_3_rougher_2_con_to_rougher_1_con_box_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17995'
+    data_source: capstone
+  line_3_rougher_2_con_to_rougher_23_con_box_valve_state:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17990'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_brightness:
+    max_value: 133.4686
+    min_value: 44.4567925
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18743'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_collapse:
+    max_value: 17.939999999999998
+    min_value: 0.54
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18744'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_direction:
+    max_value: 357.8253
+    min_value: 0.0
+    record_count: 49.0
+    fill_type: null
+    entity: '207'
+    record: '18745'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_hsvpurity:
+    max_value: 34.04481666666667
+    min_value: 2.4287479533333336
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18746'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_hsvtint:
+    max_value: 226.47553333333335
+    min_value: 72.96855500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18747'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_hsvvalue:
+    max_value: 54.78948
+    min_value: 14.109921
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18748'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_labax:
+    max_value: 1.1491298250000002
+    min_value: -7.677675999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18749'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_labbx:
+    max_value: 11.334116666666667
+    min_value: -4.71917275
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18750'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_labvalue:
+    max_value: 57.00117
+    min_value: 12.867563
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18751'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_load:
+    max_value: 100.4926
+    min_value: 88.22827749999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18752'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_p20:
+    max_value: 11.813333333333333
+    min_value: 5.79
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18753'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_p50:
+    max_value: 22.815
+    min_value: 8.77
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18754'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_p80:
+    max_value: 53.17666666666667
+    min_value: 12.959999999999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18755'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_rgbblue:
+    max_value: 138.1451
+    min_value: 33.02722
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18756'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_rgbgreen:
+    max_value: 136.6638
+    min_value: 32.102535
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18757'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_rgbred:
+    max_value: 136.82115
+    min_value: 27.40208325
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18758'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_stability:
+    max_value: 28.522392500000002
+    min_value: 4.48421175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18759'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_texture:
+    max_value: 1.0771220000000001
+    min_value: 0.14187776666666665
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18760'
+    data_source: capstone
+  line_3_rougher_2_froth_bubble_top_size_mm:
+    max_value: 75.4300725
+    min_value: 25.043296666666667
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18761'
+    data_source: capstone
+  line_3_rougher_2_froth_velocity_:
+    max_value: 24.596606500000007
+    min_value: -2.14714365
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13943'
+    data_source: capstone
+  line_3_rougher_2_froth_velocity_sp_cmpsec:
+    max_value: 10.0
+    min_value: 3.0845200000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13027'
+    data_source: capstone
+  line_3_rougher_2_level_:
+    max_value: 15.863410500000004
+    min_value: -0.010252550000000013
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13823'
+    data_source: capstone
+  line_3_rougher_2_pax_:
+    max_value: 799.1378599999999
+    min_value: -0.3627232142857143
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13975'
+    data_source: capstone
+  line_3_rougher_2_poly_:
+    max_value: 507.72857142857146
+    min_value: -2.3333333333333335
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13977'
+    data_source: capstone
+  line_3_rougher_3_air_flow_:
+    max_value: 962.9335850000004
+    min_value: -0.3239132442424241
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13918'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_brightness:
+    max_value: 131.221875
+    min_value: 18.8107975
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18772'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_collapse:
+    max_value: 23.92
+    min_value: 1.5099999999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18773'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_direction:
+    max_value: 356.9471
+    min_value: 0.0
+    record_count: 49.0
+    fill_type: null
+    entity: '207'
+    record: '18774'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_hsvpurity:
+    max_value: 37.21563666666666
+    min_value: 0.0
+    record_count: 50.0
+    fill_type: null
+    entity: '207'
+    record: '18775'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_hsvtint:
+    max_value: 246.0062
+    min_value: 0.0
+    record_count: 50.0
+    fill_type: null
+    entity: '207'
+    record: '18776'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_hsvvalue:
+    max_value: 54.7712425
+    min_value: 4.380559
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18777'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_labax:
+    max_value: 4.3428445
+    min_value: -6.6731489999999996
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18778'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_labbx:
+    max_value: 11.777667333333333
+    min_value: -11.64753475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18779'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_labvalue:
+    max_value: 56.923914999999994
+    min_value: 3.45847005
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18780'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_load:
+    max_value: 100.4997
+    min_value: 75.05014249999999
+    record_count: 57.0
+    fill_type: null
+    entity: '207'
+    record: '18781'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_p20:
+    max_value: 11.095
+    min_value: 5.75
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18782'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_p50:
+    max_value: 24.413333333333338
+    min_value: 8.5
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18783'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_p80:
+    max_value: 57.480000000000004
+    min_value: 11.82
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18784'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_rgbblue:
+    max_value: 135.459175
+    min_value: 11.170424
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18785'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_rgbgreen:
+    max_value: 136.58925000000002
+    min_value: 11.170424
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18786'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_rgbred:
+    max_value: 138.053275
+    min_value: 11.170424
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18787'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_stability:
+    max_value: 31.9290725
+    min_value: 0.5823584500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18788'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_texture:
+    max_value: 1.1475600000000001
+    min_value: 0.12013315
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18789'
+    data_source: capstone
+  line_3_rougher_3_froth_bubble_top_size_mm:
+    max_value: 78.942485
+    min_value: 25.237167499999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18790'
+    data_source: capstone
+  line_3_rougher_3_froth_velocity_:
+    max_value: 9.635551074999999
+    min_value: -1.0962448567567566
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13944'
+    data_source: capstone
+  line_3_rougher_3_froth_velocity_sp_cmpsec:
+    max_value: 7.0
+    min_value: 2.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13052'
+    data_source: capstone
+  line_3_rougher_3_level_:
+    max_value: 19.528636
+    min_value: 1.8633695743589744
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13824'
+    data_source: capstone
+  line_3_rougher_crossover_block_valve_state:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17980'
+    data_source: capstone
+  line_3_rougher_crossover_bypass_valve_state:
+    max_value: 0.5
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '17985'
+    data_source: capstone
+  line_3_scav_1_air_flow_:
+    max_value: 615.1439350000002
+    min_value: -0.5038242083333332
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13919'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_brightness:
+    max_value: 158.7596
+    min_value: 16.6201525
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18801'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_collapse:
+    max_value: 26.635
+    min_value: 0.9825
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18802'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_direction:
+    max_value: 345.562975
+    min_value: 10.7669475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18803'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_hsvpurity:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18804'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_hsvtint:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18805'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_hsvvalue:
+    max_value: 64.48896
+    min_value: 5.77736275
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18806'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_labax:
+    max_value: 0.0037755873333333335
+    min_value: 0.0005968027
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18807'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_labbx:
+    max_value: -0.00118081935
+    min_value: -0.007470204666666667
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18808'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_labvalue:
+    max_value: 67.25599333333334
+    min_value: 5.2623355
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18809'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_load:
+    max_value: 100.16583333333334
+    min_value: 30.276723333333333
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18810'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_p20:
+    max_value: 40.364999999999995
+    min_value: 12.73
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18811'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_p50:
+    max_value: 70.39
+    min_value: 17.3
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18812'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_p80:
+    max_value: 134.405
+    min_value: 24.872500000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18813'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_rgbblue:
+    max_value: 164.44683333333333
+    min_value: 14.73227575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18814'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_rgbgreen:
+    max_value: 164.44683333333333
+    min_value: 14.73227575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18815'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_rgbred:
+    max_value: 164.44683333333333
+    min_value: 14.73227575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18816'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_stability:
+    max_value: 36.700880000000005
+    min_value: 0.7630685500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18817'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_texture:
+    max_value: 1.636265
+    min_value: 0.370496575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18818'
+    data_source: capstone
+  line_3_scav_1_froth_bubble_top_size_mm:
+    max_value: 150.26772499999998
+    min_value: 45.4816
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18819'
+    data_source: capstone
+  line_3_scav_1_froth_velocity_:
+    max_value: 174.52819843749998
+    min_value: 0.011386247125000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13945'
+    data_source: capstone
+  line_3_scav_1_froth_velocity_sp_cmpsec:
+    max_value: 11.0
+    min_value: 2.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13077'
+    data_source: capstone
+  line_3_scav_1_level_:
+    max_value: 13.5404305
+    min_value: -0.9500000000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13825'
+    data_source: capstone
+  line_3_scav_1_pax_:
+    max_value: 899.2047378378379
+    min_value: -0.15600000000000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13979'
+    data_source: capstone
+  line_3_scav_1_poly_:
+    max_value: 292.771684375
+    min_value: -0.2549568965517242
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13981'
+    data_source: capstone
+  line_3_scav_2_air_flow_:
+    max_value: 706.8248350000001
+    min_value: -0.1461140715384615
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13920'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_brightness:
+    max_value: 234.3821
+    min_value: 66.9055125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18830'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_collapse:
+    max_value: 27.62
+    min_value: 0.42000000000000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18831'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_direction:
+    max_value: 350.7974
+    min_value: 1.8389812333333335
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18832'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_hsvpurity:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18833'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_hsvtint:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18834'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_hsvvalue:
+    max_value: 92.08407666666666
+    min_value: 25.930735
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18835'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_labax:
+    max_value: 0.004918253666666667
+    min_value: 0.0015203668
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18836'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_labbx:
+    max_value: -0.0030081315
+    min_value: -0.009731031666666666
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18837'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_labvalue:
+    max_value: 92.57252
+    min_value: 26.699067499999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18838'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_load:
+    max_value: 95.978475
+    min_value: 4.638952499999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18839'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_p20:
+    max_value: 35.95
+    min_value: 11.2675
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18840'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_p50:
+    max_value: 91.05499999999999
+    min_value: 15.445
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18841'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_p80:
+    max_value: 136.1525
+    min_value: 22.0475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18842'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_rgbblue:
+    max_value: 234.81436666666664
+    min_value: 66.12337500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18843'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_rgbgreen:
+    max_value: 234.81436666666664
+    min_value: 66.12337500000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18844'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_rgbred:
+    max_value: 234.81436666666664
+    min_value: 66.123375
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18845'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_stability:
+    max_value: 90.43842666666667
+    min_value: 10.50479875
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18846'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_texture:
+    max_value: 1.0462675
+    min_value: 0.19776480000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18847'
+    data_source: capstone
+  line_3_scav_2_froth_bubble_top_size_mm:
+    max_value: 149.847725
+    min_value: 46.616102500000004
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18848'
+    data_source: capstone
+  line_3_scav_2_froth_velocity_:
+    max_value: 774.71990584675
+    min_value: 0.005143483589743591
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13946'
+    data_source: capstone
+  line_3_scav_2_froth_velocity_sp_cmpsec:
+    max_value: 4.95334
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13102'
+    data_source: capstone
+  line_3_scav_2_level_:
+    max_value: 13.641756299999997
+    min_value: 4.7154543
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13826'
+    data_source: capstone
+  line_3_scav_2_pax_:
+    max_value: 412.6333410256411
+    min_value: -0.3280092592592594
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13980'
+    data_source: capstone
+  line_3_scav_2_poly_:
+    max_value: 195.33732424242424
+    min_value: -0.21328125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13982'
+    data_source: capstone
+  line_3_scav_3_air_flow_:
+    max_value: 656.4153075
+    min_value: -88.29999999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13921'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_brightness:
+    max_value: 216.27026666666666
+    min_value: 11.5342575
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18859'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_collapse:
+    max_value: 33.9
+    min_value: 0.7125
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18860'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_direction:
+    max_value: 357.77305
+    min_value: 3.3734832000000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18861'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_hsvpurity:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18862'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_hsvtint:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18863'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_hsvvalue:
+    max_value: 84.67706666666668
+    min_value: 1.078442
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18864'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_labax:
+    max_value: 0.0046239466666666675
+    min_value: 6.610411e-05
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18865'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_labbx:
+    max_value: -0.0001307906
+    min_value: -0.009148729666666666
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18866'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_labvalue:
+    max_value: 85.98758333333335
+    min_value: 1.135244
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18867'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_load:
+    max_value: 100.10212750000001
+    min_value: 3.9279268000000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18868'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_p20:
+    max_value: 56.56
+    min_value: 10.93
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18869'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_p50:
+    max_value: 95.5825
+    min_value: 14.74
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18870'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_p80:
+    max_value: 130.65
+    min_value: 20.912499999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18871'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_rgbblue:
+    max_value: 215.92653333333337
+    min_value: 2.750028
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18872'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_rgbgreen:
+    max_value: 215.92653333333337
+    min_value: 2.750028
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18873'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_rgbred:
+    max_value: 215.92653333333337
+    min_value: 2.750028
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18874'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_stability:
+    max_value: 76.88204333333334
+    min_value: 1.4877805
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18875'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_texture:
+    max_value: 0.8716212666666667
+    min_value: 0.10784649999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18876'
+    data_source: capstone
+  line_3_scav_3_froth_bubble_top_size_mm:
+    max_value: 146.92743333333334
+    min_value: 41.568192499999995
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18877'
+    data_source: capstone
+  line_3_scav_3_froth_velocity_:
+    max_value: 8.133336225
+    min_value: 0.022001885000000002
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13947'
+    data_source: capstone
+  line_3_scav_3_froth_velocity_sp_cmpsec:
+    max_value: 6.0
+    min_value: 1.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13127'
+    data_source: capstone
+  line_3_scav_3_level_:
+    max_value: 13.984170696969699
+    min_value: -0.9500000000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13926'
+    data_source: capstone
+  line_3_scav_4_air_flow_:
+    max_value: 684.6204366666667
+    min_value: -88.29999999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13922'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_brightness:
+    max_value: 171.0907
+    min_value: 2.0339465
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18888'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_collapse:
+    max_value: 37.4975
+    min_value: 0.7975
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18889'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_direction:
+    max_value: 358.987875
+    min_value: 3.5768698666666663
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18890'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_hsvpurity:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18891'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_hsvtint:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 1.0
+    fill_type: null
+    entity: '207'
+    record: '18892'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_hsvvalue:
+    max_value: 68.33919333333334
+    min_value: 0.6133584
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18893'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_labax:
+    max_value: 0.003950121666666666
+    min_value: 6.4081545e-05
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18894'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_labbx:
+    max_value: -0.0001267916
+    min_value: -0.007815529666666666
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18895'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_labvalue:
+    max_value: 71.10467
+    min_value: 0.517922725
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18896'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_load:
+    max_value: 100.2618
+    min_value: 6.9844175
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18897'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_p20:
+    max_value: 132.48000000000002
+    min_value: 12.89
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18898'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_p50:
+    max_value: 151.8475
+    min_value: 16.22
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18899'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_p80:
+    max_value: 173.1125
+    min_value: 22.797500000000003
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18900'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_rgbblue:
+    max_value: 174.26493333333335
+    min_value: 1.564064
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18901'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_rgbgreen:
+    max_value: 174.26493333333335
+    min_value: 1.5640639999999997
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18902'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_rgbred:
+    max_value: 174.26493333333335
+    min_value: 1.564064
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18903'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_stability:
+    max_value: 47.978175
+    min_value: 0.08966235
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18904'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_texture:
+    max_value: 0.9677988333333333
+    min_value: 0.0444906475
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18905'
+    data_source: capstone
+  line_3_scav_4_froth_bubble_top_size_mm:
+    max_value: 189.98995000000002
+    min_value: 44.68764
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '18906'
+    data_source: capstone
+  line_3_scav_4_froth_velocity_:
+    max_value: 76.70398375000002
+    min_value: 0.011981134874999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13948'
+    data_source: capstone
+  line_3_scav_4_froth_velocity_sp_cmpsec:
+    max_value: 9.0
+    min_value: 2.0
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13152'
+    data_source: capstone
+  line_3_scav_4_level_:
+    max_value: 13.875071500000004
+    min_value: -0.9500000000000001
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '13927'
+    data_source: capstone
+  lne_2_3_rghr_2_3_con_pmpbx_lvl:
+    max_value: 103.21981111111114
+    min_value: 0.5340460526315788
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '15823'
+    data_source: capstone
+  low_gr_clnr_tails_pmpbx_lvl:
+    max_value: 103.16159523809526
+    min_value: 13.596953025
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4381'
+    data_source: capstone
+  low_gr_col_fd_pmpbox_lvl:
+    max_value: 103.15700000000002
+    min_value: 15.541532258064517
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4756'
+    data_source: capstone
+  low_gr_col_tails_pmpbx_lvl:
+    max_value: 103.104752
+    min_value: -0.5933035714285715
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4726'
+    data_source: capstone
+  mo_conc_osa_arsenic_intensity_counts:
+    max_value: -9999.0
+    min_value: -9999.0
+    record_count: 1.0
+    fill_type: null
+    entity: '179'
+    record: '9159'
+    data_source: capstone
+  mo_conc_osa_copper_intensity_counts:
+    max_value: 9748.738
+    min_value: -1.0
+    record_count: 7.0
+    fill_type: null
+    entity: '179'
+    record: '9169'
+    data_source: capstone
+  mo_conc_osa_iron_intensity_counts:
+    max_value: 7966.144
+    min_value: -1.0
+    record_count: 7.0
+    fill_type: null
+    entity: '179'
+    record: '9172'
+    data_source: capstone
+  mo_conc_osa_moly_intensity_counts:
+    max_value: 14801.45
+    min_value: -1.0
+    record_count: 7.0
+    fill_type: null
+    entity: '179'
+    record: '9175'
+    data_source: capstone
+  mo_conc_osa_moly_pct_ml:
+    max_value: 47.99146
+    min_value: 0.0
+    record_count: 6.0
+    fill_type: null
+    entity: '179'
+    record: '11985'
+    data_source: capstone
+  mo_conc_osa_solids_intensity_counts:
+    max_value: 3522.576
+    min_value: -1.0
+    record_count: 7.0
+    fill_type: null
+    entity: '179'
+    record: '9182'
+    data_source: capstone
+  osa_line_1_scav_tls_copper_counts:
+    max_value: 786.9307
+    min_value: -1.0
+    record_count: 10.0
+    fill_type: null
+    entity: '207'
+    record: '39294'
+    data_source: capstone
+  osa_line_1_scav_tls_copper_pct:
+    max_value: 0.03871848
+    min_value: 0.0
+    record_count: 10.0
+    fill_type: null
+    entity: '183'
+    record: '4920'
+    data_source: capstone
+  osa_line_1_scav_tls_copper_pct_revised:
+    max_value: 0.08797882
+    min_value: 0.0
+    record_count: 50.0
+    fill_type: null
+    entity: '207'
+    record: '38047'
+    data_source: capstone
+  osa_line_2_scav_tls_copper_counts:
+    max_value: 785.387
+    min_value: -1.0
+    record_count: 11.0
+    fill_type: null
+    entity: '207'
+    record: '39417'
+    data_source: capstone
+  osa_line_2_scav_tls_copper_pct:
+    max_value: 0.08093729
+    min_value: 0.0
+    record_count: 11.0
+    fill_type: null
+    entity: '183'
+    record: '4921'
+    data_source: capstone
+  osa_line_2_scav_tls_copper_pct_revised:
+    max_value: 0.1033066
+    min_value: -1.0
+    record_count: 51.0
+    fill_type: null
+    entity: '207'
+    record: '38049'
+    data_source: capstone
+  osa_line_2_scav_tls_iron_pct:
+    max_value: 0.9981573
+    min_value: 0.0
+    record_count: 11.0
+    fill_type: null
+    entity: '183'
+    record: '2541'
+    data_source: capstone
+  osa_line_2_scav_tls_moly_pct:
+    max_value: 0.006790274
+    min_value: 0.0
+    record_count: 11.0
+    fill_type: null
+    entity: '183'
+    record: '2544'
+    data_source: capstone
+  osa_line_3_scav_tls_copper_counts:
+    max_value: 783.0571
+    min_value: -1.0
+    record_count: 5.0
+    fill_type: null
+    entity: '207'
+    record: '39540'
+    data_source: capstone
+  osa_line_3_scav_tls_copper_pct:
+    max_value: 0.07136436
+    min_value: 0.0
+    record_count: 5.0
+    fill_type: null
+    entity: '183'
+    record: '4922'
+    data_source: capstone
+  osa_line_3_scav_tls_copper_pct_revised:
+    max_value: 0.06014744
+    min_value: 0.0
+    record_count: 25.0
+    fill_type: null
+    entity: '207'
+    record: '38051'
+    data_source: capstone
+  osa_line_3_scav_tls_iron_intensity_counts:
+    max_value: 2236.859
+    min_value: -1.0
+    record_count: 5.0
+    fill_type: null
+    entity: '207'
+    record: '39562'
+    data_source: capstone
+  osa_line_3_scav_tls_moly_intensity_counts:
+    max_value: 2691.708
+    min_value: -1.0
+    record_count: 5.0
+    fill_type: null
+    entity: '207'
+    record: '39584'
+    data_source: capstone
+  osa_line_3_scav_tls_solids_intensity_counts:
+    max_value: 3341.017
+    min_value: -1.0
+    record_count: 5.0
+    fill_type: null
+    entity: '207'
+    record: '39629'
+    data_source: capstone
+  osa_scav_1_tls_iron_intensity_counts:
+    max_value: 2521.762
+    min_value: -1.0
+    record_count: 10.0
+    fill_type: null
+    entity: '207'
+    record: '39316'
+    data_source: capstone
+  osa_scav_1_tls_moly_intensity_counts:
+    max_value: 2701.784
+    min_value: -1.0
+    record_count: 10.0
+    fill_type: null
+    entity: '207'
+    record: '39338'
+    data_source: capstone
+  osa_scav_1_tls_solids_intensity_counts:
+    max_value: 3359.166
+    min_value: -1.0
+    record_count: 10.0
+    fill_type: null
+    entity: '207'
+    record: '39383'
+    data_source: capstone
+  osa_scav_2_tls_iron_intensity_counts:
+    max_value: 2517.722
+    min_value: -1.0
+    record_count: 11.0
+    fill_type: null
+    entity: '207'
+    record: '39439'
+    data_source: capstone
+  osa_scav_2_tls_moly_intensity_counts:
+    max_value: 2703.499
+    min_value: -1.0
+    record_count: 11.0
+    fill_type: null
+    entity: '207'
+    record: '39461'
+    data_source: capstone
+  osa_scav_2_tls_solids_intensity_counts:
+    max_value: 3357.249
+    min_value: -1.0
+    record_count: 11.0
+    fill_type: null
+    entity: '207'
+    record: '39506'
+    data_source: capstone
+  osa_scav_tls_1_iron_pct:
+    max_value: 1.266552
+    min_value: 0.0
+    record_count: 10.0
+    fill_type: null
+    entity: '183'
+    record: '2540'
+    data_source: capstone
+  osa_scav_tls_1_moly_pct:
+    max_value: 0.007519512
+    min_value: 0.0
+    record_count: 10.0
+    fill_type: null
+    entity: '183'
+    record: '2543'
+    data_source: capstone
+  ots2_a_feedline_as:
+    max_value: 0.0039269
+    min_value: 0.0004059
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_As
+    data_source: ots
+  ots2_a_feedline_bn_derived:
+    max_value: 62.0394342
+    min_value: 2.7321719
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Bn_derived
+    data_source: ots
+  ots2_a_feedline_bwi:
+    max_value: 15.4091476
+    min_value: 12.0294179
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: bwi
+    data_source: ots
+  ots2_a_feedline_ccnk:
+    max_value: 0.8957477
+    min_value: 0.3647999
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_CCNK
+    data_source: ots
+  ots2_a_feedline_cr1:
+    max_value: 0.9999108
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: DUMP_LOCATION_SNAME_CR01
+    data_source: ots
+  ots2_a_feedline_cr4:
+    max_value: 0.9977867
+    min_value: 8.6e-06
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: DUMP_LOCATION_SNAME_CR04
+    data_source: ots
+  ots2_a_feedline_cr5:
+    max_value: 0.9678778
+    min_value: 4.17e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: DUMP_LOCATION_SNAME_CR05
+    data_source: ots
+  ots2_a_feedline_cu:
+    max_value: 0.5670511
+    min_value: 0.1535645
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Cu
+    data_source: ots
+  ots2_a_feedline_cu_25:
+    max_value: 0.5979641
+    min_value: 0.1533464
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Cu25
+    data_source: ots
+  ots2_a_feedline_ef:
+    max_value: 1.458897
+    min_value: 0.3996006
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_EF
+    data_source: ots
+  ots2_a_feedline_fe:
+    max_value: 1.7036992
+    min_value: 0.4299905
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Fe
+    data_source: ots
+  ots2_a_feedline_gypsum_1:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_gypsum_1
+    data_source: ots
+  ots2_a_feedline_hardness:
+    max_value: 56.3721751
+    min_value: 10.6756092
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Hd
+    data_source: ots
+  ots2_a_feedline_highmont:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: load_pit_H
+    data_source: ots
+  ots2_a_feedline_lithology_12:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_12
+    data_source: ots
+  ots2_a_feedline_lithology_13:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_13
+    data_source: ots
+  ots2_a_feedline_lithology_14:
+    max_value: 0.0041589
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_14
+    data_source: ots
+  ots2_a_feedline_lithology_16:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_16
+    data_source: ots
+  ots2_a_feedline_lithology_17:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_17
+    data_source: ots
+  ots2_a_feedline_lithology_19:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_19
+    data_source: ots
+  ots2_a_feedline_lithology_2:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_2
+    data_source: ots
+  ots2_a_feedline_lithology_26:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_26
+    data_source: ots
+  ots2_a_feedline_lithology_4:
+    max_value: 0.9834305
+    min_value: 7.35e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_4
+    data_source: ots
+  ots2_a_feedline_lithology_40:
+    max_value: 0.4090875
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_40
+    data_source: ots
+  ots2_a_feedline_lithology_41:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_41
+    data_source: ots
+  ots2_a_feedline_lithology_42:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_42
+    data_source: ots
+  ots2_a_feedline_lithology_43:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_43
+    data_source: ots
+  ots2_a_feedline_lithology_6:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_6
+    data_source: ots
+  ots2_a_feedline_lithology_8:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_lithology_8
+    data_source: ots
+  ots2_a_feedline_lornex:
+    max_value: 0.9999265
+    min_value: 2.88e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: load_pit_L
+    data_source: ots
+  ots2_a_feedline_mo:
+    max_value: 0.0399216
+    min_value: 0.0025303
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Mo
+    data_source: ots
+  ots2_a_feedline_pc:
+    max_value: 0.9943258
+    min_value: 0.0024012
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_PC
+    data_source: ots
+  ots2_a_feedline_pyrite:
+    max_value: 0.5239187
+    min_value: 0.004838
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: pyrite
+    data_source: ots
+  ots2_a_feedline_rec_cu_lab:
+    max_value: 91.7312837
+    min_value: 50.2431865
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_Rec_Cu_lab
+    data_source: ots
+  ots2_a_feedline_s:
+    max_value: 1.4620455
+    min_value: 0.266768
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_S
+    data_source: ots
+  ots2_a_feedline_td_1901:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1901
+    data_source: ots
+  ots2_a_feedline_td_1902:
+    max_value: 0.3615636
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1902
+    data_source: ots
+  ots2_a_feedline_td_1903:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1903
+    data_source: ots
+  ots2_a_feedline_td_1904:
+    max_value: 1.0
+    min_value: 0.1947819
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1904
+    data_source: ots
+  ots2_a_feedline_td_1905:
+    max_value: 0.5104303
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1905
+    data_source: ots
+  ots2_a_feedline_td_1906:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1906
+    data_source: ots
+  ots2_a_feedline_td_1907:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1907
+    data_source: ots
+  ots2_a_feedline_td_1908:
+    max_value: 0.3308117
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TD_1908
+    data_source: ots
+  ots2_a_feedline_tpod:
+    max_value: 205441.0266787
+    min_value: 112.8650828
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_TPOD
+    data_source: ots
+  ots2_a_feedline_ucs:
+    max_value: 114.9800191
+    min_value: 28.2144146
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: ucs
+    data_source: ots
+  ots2_a_feedline_valley:
+    max_value: 0.9999712
+    min_value: 7.35e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: load_pit_V
+    data_source: ots
+  ots2_a_feedline_yellow_fz:
+    max_value: 0.0027509
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_A_entry
+    record: block_yellow_fz
+    data_source: ots
+  ots2_b_feedline_as:
+    max_value: 0.0039269
+    min_value: 0.0004059
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_As
+    data_source: ots
+  ots2_b_feedline_bn_derived:
+    max_value: 62.0394342
+    min_value: 2.7321719
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Bn_derived
+    data_source: ots
+  ots2_b_feedline_bwi:
+    max_value: 15.4091476
+    min_value: 12.0294179
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: bwi
+    data_source: ots
+  ots2_b_feedline_ccnk:
+    max_value: 0.8957477
+    min_value: 0.3647999
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_CCNK
+    data_source: ots
+  ots2_b_feedline_cr1:
+    max_value: 0.9999108
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: DUMP_LOCATION_SNAME_CR01
+    data_source: ots
+  ots2_b_feedline_cr4:
+    max_value: 0.9977867
+    min_value: 8.6e-06
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: DUMP_LOCATION_SNAME_CR04
+    data_source: ots
+  ots2_b_feedline_cr5:
+    max_value: 0.9678778
+    min_value: 4.17e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: DUMP_LOCATION_SNAME_CR05
+    data_source: ots
+  ots2_b_feedline_cu:
+    max_value: 0.5670511
+    min_value: 0.1535645
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Cu
+    data_source: ots
+  ots2_b_feedline_cu_25:
+    max_value: 0.5979641
+    min_value: 0.1533464
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Cu25
+    data_source: ots
+  ots2_b_feedline_ef:
+    max_value: 1.458897
+    min_value: 0.3996006
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_EF
+    data_source: ots
+  ots2_b_feedline_fe:
+    max_value: 1.7036992
+    min_value: 0.4299905
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Fe
+    data_source: ots
+  ots2_b_feedline_gypsum_1:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_gypsum_1
+    data_source: ots
+  ots2_b_feedline_hardness:
+    max_value: 56.3721751
+    min_value: 10.6756092
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Hd
+    data_source: ots
+  ots2_b_feedline_highmont:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: load_pit_H
+    data_source: ots
+  ots2_b_feedline_lithology_12:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_12
+    data_source: ots
+  ots2_b_feedline_lithology_13:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_13
+    data_source: ots
+  ots2_b_feedline_lithology_14:
+    max_value: 0.0041589
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_14
+    data_source: ots
+  ots2_b_feedline_lithology_16:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_16
+    data_source: ots
+  ots2_b_feedline_lithology_17:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_17
+    data_source: ots
+  ots2_b_feedline_lithology_19:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_19
+    data_source: ots
+  ots2_b_feedline_lithology_2:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_2
+    data_source: ots
+  ots2_b_feedline_lithology_26:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_26
+    data_source: ots
+  ots2_b_feedline_lithology_4:
+    max_value: 0.9834305
+    min_value: 7.35e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_4
+    data_source: ots
+  ots2_b_feedline_lithology_40:
+    max_value: 0.4090875
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_40
+    data_source: ots
+  ots2_b_feedline_lithology_41:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_41
+    data_source: ots
+  ots2_b_feedline_lithology_42:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_42
+    data_source: ots
+  ots2_b_feedline_lithology_43:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_43
+    data_source: ots
+  ots2_b_feedline_lithology_6:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_6
+    data_source: ots
+  ots2_b_feedline_lithology_8:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_lithology_8
+    data_source: ots
+  ots2_b_feedline_lornex:
+    max_value: 0.9999265
+    min_value: 2.88e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: load_pit_L
+    data_source: ots
+  ots2_b_feedline_mo:
+    max_value: 0.0399216
+    min_value: 0.0025303
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Mo
+    data_source: ots
+  ots2_b_feedline_pc:
+    max_value: 0.9943258
+    min_value: 0.0024012
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_PC
+    data_source: ots
+  ots2_b_feedline_pyrite:
+    max_value: 0.5239187
+    min_value: 0.004838
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: pyrite
+    data_source: ots
+  ots2_b_feedline_rec_cu_lab:
+    max_value: 91.7312837
+    min_value: 50.2431865
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_Rec_Cu_lab
+    data_source: ots
+  ots2_b_feedline_s:
+    max_value: 1.4620455
+    min_value: 0.266768
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_S
+    data_source: ots
+  ots2_b_feedline_td_1901:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1901
+    data_source: ots
+  ots2_b_feedline_td_1902:
+    max_value: 0.3615636
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1902
+    data_source: ots
+  ots2_b_feedline_td_1903:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1903
+    data_source: ots
+  ots2_b_feedline_td_1904:
+    max_value: 1.0
+    min_value: 0.1947819
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1904
+    data_source: ots
+  ots2_b_feedline_td_1905:
+    max_value: 0.5104303
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1905
+    data_source: ots
+  ots2_b_feedline_td_1906:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1906
+    data_source: ots
+  ots2_b_feedline_td_1907:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1907
+    data_source: ots
+  ots2_b_feedline_td_1908:
+    max_value: 0.3308117
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TD_1908
+    data_source: ots
+  ots2_b_feedline_tpod:
+    max_value: 205441.0266787
+    min_value: 112.8650828
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_TPOD
+    data_source: ots
+  ots2_b_feedline_ucs:
+    max_value: 114.9800191
+    min_value: 28.2144146
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: ucs
+    data_source: ots
+  ots2_b_feedline_valley:
+    max_value: 0.9999712
+    min_value: 7.35e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: load_pit_V
+    data_source: ots
+  ots2_b_feedline_yellow_fz:
+    max_value: 0.0027509
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_B_entry
+    record: block_yellow_fz
+    data_source: ots
+  ots2_c_feedline_as:
+    max_value: 0.0021938
+    min_value: 0.0006075
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_As
+    data_source: ots
+  ots2_c_feedline_bn_derived:
+    max_value: 64.9047251
+    min_value: 1.2034738
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Bn_derived
+    data_source: ots
+  ots2_c_feedline_bwi:
+    max_value: 15.0310878
+    min_value: 13.5627293
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: bwi
+    data_source: ots
+  ots2_c_feedline_ccnk:
+    max_value: 0.8993865
+    min_value: 0.3747443
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_CCNK
+    data_source: ots
+  ots2_c_feedline_cr1:
+    max_value: 0.9999978
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: DUMP_LOCATION_SNAME_CR01
+    data_source: ots
+  ots2_c_feedline_cr4:
+    max_value: 0.999968
+    min_value: 2.2e-06
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: DUMP_LOCATION_SNAME_CR04
+    data_source: ots
+  ots2_c_feedline_cr5:
+    max_value: 0.4495937
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: DUMP_LOCATION_SNAME_CR05
+    data_source: ots
+  ots2_c_feedline_cu:
+    max_value: 0.7416442
+    min_value: 0.1770117
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Cu
+    data_source: ots
+  ots2_c_feedline_cu_25:
+    max_value: 0.5296248
+    min_value: 0.2131201
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Cu25
+    data_source: ots
+  ots2_c_feedline_ef:
+    max_value: 1.8891529
+    min_value: 0.3922988
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_EF
+    data_source: ots
+  ots2_c_feedline_fe:
+    max_value: 1.1595413
+    min_value: 0.5473893
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Fe
+    data_source: ots
+  ots2_c_feedline_gypsum_1:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_gypsum_1
+    data_source: ots
+  ots2_c_feedline_hardness:
+    max_value: 58.1120779
+    min_value: 11.1583272
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Hd
+    data_source: ots
+  ots2_c_feedline_highmont:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: load_pit_H
+    data_source: ots
+  ots2_c_feedline_lithology_12:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_12
+    data_source: ots
+  ots2_c_feedline_lithology_13:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_13
+    data_source: ots
+  ots2_c_feedline_lithology_14:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_14
+    data_source: ots
+  ots2_c_feedline_lithology_16:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_16
+    data_source: ots
+  ots2_c_feedline_lithology_17:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_17
+    data_source: ots
+  ots2_c_feedline_lithology_19:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_19
+    data_source: ots
+  ots2_c_feedline_lithology_2:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_2
+    data_source: ots
+  ots2_c_feedline_lithology_26:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_26
+    data_source: ots
+  ots2_c_feedline_lithology_4:
+    max_value: 0.999968
+    min_value: 2.2e-06
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_4
+    data_source: ots
+  ots2_c_feedline_lithology_40:
+    max_value: 0.3511841
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_40
+    data_source: ots
+  ots2_c_feedline_lithology_41:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_41
+    data_source: ots
+  ots2_c_feedline_lithology_42:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_42
+    data_source: ots
+  ots2_c_feedline_lithology_43:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_43
+    data_source: ots
+  ots2_c_feedline_lithology_6:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_6
+    data_source: ots
+  ots2_c_feedline_lithology_8:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_lithology_8
+    data_source: ots
+  ots2_c_feedline_lornex:
+    max_value: 0.9999978
+    min_value: 3.2e-05
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: load_pit_L
+    data_source: ots
+  ots2_c_feedline_mo:
+    max_value: 0.0340889
+    min_value: 0.0017004
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Mo
+    data_source: ots
+  ots2_c_feedline_pc:
+    max_value: 0.9961039
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_PC
+    data_source: ots
+  ots2_c_feedline_pyrite:
+    max_value: 0.1767542
+    min_value: 0.0066232
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: pyrite
+    data_source: ots
+  ots2_c_feedline_rec_cu_lab:
+    max_value: 90.9664559
+    min_value: 71.8235886
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_Rec_Cu_lab
+    data_source: ots
+  ots2_c_feedline_s:
+    max_value: 0.8177389
+    min_value: 0.3220014
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_S
+    data_source: ots
+  ots2_c_feedline_td_1901:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1901
+    data_source: ots
+  ots2_c_feedline_td_1902:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1902
+    data_source: ots
+  ots2_c_feedline_td_1903:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1903
+    data_source: ots
+  ots2_c_feedline_td_1904:
+    max_value: 1.0
+    min_value: 0.5992137
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1904
+    data_source: ots
+  ots2_c_feedline_td_1905:
+    max_value: 0.2855585
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1905
+    data_source: ots
+  ots2_c_feedline_td_1906:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1906
+    data_source: ots
+  ots2_c_feedline_td_1907:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1907
+    data_source: ots
+  ots2_c_feedline_td_1908:
+    max_value: 0.2132957
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TD_1908
+    data_source: ots
+  ots2_c_feedline_tpod:
+    max_value: 205066.0817416
+    min_value: 105.2977482
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_TPOD
+    data_source: ots
+  ots2_c_feedline_ucs:
+    max_value: 112.9002525
+    min_value: 21.2549504
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: ucs
+    data_source: ots
+  ots2_c_feedline_valley:
+    max_value: 0.999968
+    min_value: 2.2e-06
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: load_pit_V
+    data_source: ots
+  ots2_c_feedline_yellow_fz:
+    max_value: 0.002314
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_C_entry
+    record: block_yellow_fz
+    data_source: ots
+  ots2_d_feedline_as:
+    max_value: 0.0024261
+    min_value: 0.0008908
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_As
+    data_source: ots
+  ots2_d_feedline_bn_derived:
+    max_value: 68.7093065
+    min_value: 19.7882156
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Bn_derived
+    data_source: ots
+  ots2_d_feedline_bwi:
+    max_value: 15.06028
+    min_value: 13.6546609
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: bwi
+    data_source: ots
+  ots2_d_feedline_ccnk:
+    max_value: 0.9860466
+    min_value: 0.4749493
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_CCNK
+    data_source: ots
+  ots2_d_feedline_cr1:
+    max_value: 0.6530861
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: DUMP_LOCATION_SNAME_CR01
+    data_source: ots
+  ots2_d_feedline_cr4:
+    max_value: 0.9999994
+    min_value: 0.0090089
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: DUMP_LOCATION_SNAME_CR04
+    data_source: ots
+  ots2_d_feedline_cr5:
+    max_value: 0.9909911
+    min_value: 6.0e-07
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: DUMP_LOCATION_SNAME_CR05
+    data_source: ots
+  ots2_d_feedline_cu:
+    max_value: 0.43705
+    min_value: 0.1562327
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Cu
+    data_source: ots
+  ots2_d_feedline_cu_25:
+    max_value: 0.3770216
+    min_value: 0.1235885
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Cu25
+    data_source: ots
+  ots2_d_feedline_ef:
+    max_value: 1.8929967
+    min_value: 0.5023089
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_EF
+    data_source: ots
+  ots2_d_feedline_fe:
+    max_value: 1.1710897
+    min_value: 0.5226988
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Fe
+    data_source: ots
+  ots2_d_feedline_gypsum_1:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_gypsum_1
+    data_source: ots
+  ots2_d_feedline_hardness:
+    max_value: 63.06976
+    min_value: 14.4527825
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Hd
+    data_source: ots
+  ots2_d_feedline_highmont:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: load_pit_H
+    data_source: ots
+  ots2_d_feedline_lithology_12:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_12
+    data_source: ots
+  ots2_d_feedline_lithology_13:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_13
+    data_source: ots
+  ots2_d_feedline_lithology_14:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_14
+    data_source: ots
+  ots2_d_feedline_lithology_16:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_16
+    data_source: ots
+  ots2_d_feedline_lithology_17:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_17
+    data_source: ots
+  ots2_d_feedline_lithology_19:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_19
+    data_source: ots
+  ots2_d_feedline_lithology_2:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_2
+    data_source: ots
+  ots2_d_feedline_lithology_26:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_26
+    data_source: ots
+  ots2_d_feedline_lithology_4:
+    max_value: 1.0
+    min_value: 0.0120183
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_4
+    data_source: ots
+  ots2_d_feedline_lithology_40:
+    max_value: 0.2668199
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_40
+    data_source: ots
+  ots2_d_feedline_lithology_41:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_41
+    data_source: ots
+  ots2_d_feedline_lithology_42:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_42
+    data_source: ots
+  ots2_d_feedline_lithology_43:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_43
+    data_source: ots
+  ots2_d_feedline_lithology_6:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_6
+    data_source: ots
+  ots2_d_feedline_lithology_8:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_lithology_8
+    data_source: ots
+  ots2_d_feedline_lornex:
+    max_value: 0.9879816
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: load_pit_L
+    data_source: ots
+  ots2_d_feedline_mo:
+    max_value: 0.0111358
+    min_value: 0.0009329
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Mo
+    data_source: ots
+  ots2_d_feedline_pc:
+    max_value: 0.9824382
+    min_value: 0.0001208
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_PC
+    data_source: ots
+  ots2_d_feedline_pyrite:
+    max_value: 0.2094947
+    min_value: 0.0244773
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: pyrite
+    data_source: ots
+  ots2_d_feedline_rec_cu_lab:
+    max_value: 91.5390758
+    min_value: 70.3615666
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_Rec_Cu_lab
+    data_source: ots
+  ots2_d_feedline_s:
+    max_value: 0.8110182
+    min_value: 0.2143088
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_S
+    data_source: ots
+  ots2_d_feedline_td_1901:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1901
+    data_source: ots
+  ots2_d_feedline_td_1902:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1902
+    data_source: ots
+  ots2_d_feedline_td_1903:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1903
+    data_source: ots
+  ots2_d_feedline_td_1904:
+    max_value: 1.0
+    min_value: 0.5735779
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1904
+    data_source: ots
+  ots2_d_feedline_td_1905:
+    max_value: 0.3832353
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1905
+    data_source: ots
+  ots2_d_feedline_td_1906:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1906
+    data_source: ots
+  ots2_d_feedline_td_1907:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1907
+    data_source: ots
+  ots2_d_feedline_td_1908:
+    max_value: 0.1897114
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TD_1908
+    data_source: ots
+  ots2_d_feedline_tpod:
+    max_value: 198493.0550761
+    min_value: 102.1366287
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_TPOD
+    data_source: ots
+  ots2_d_feedline_ucs:
+    max_value: 115.3316659
+    min_value: 23.6297198
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: ucs
+    data_source: ots
+  ots2_d_feedline_valley:
+    max_value: 1.0
+    min_value: 0.0120184
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: load_pit_V
+    data_source: ots
+  ots2_d_feedline_yellow_fz:
+    max_value: 0.0027739
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_D_entry
+    record: block_yellow_fz
+    data_source: ots
+  ots2_e_feedline_as:
+    max_value: 0.0024261
+    min_value: 0.0011187
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_As
+    data_source: ots
+  ots2_e_feedline_bn_derived:
+    max_value: 56.2443602
+    min_value: 45.646321
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Bn_derived
+    data_source: ots
+  ots2_e_feedline_bwi:
+    max_value: 14.8967823
+    min_value: 14.6888648
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: bwi
+    data_source: ots
+  ots2_e_feedline_ccnk:
+    max_value: 0.9539015
+    min_value: 0.8606129
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_CCNK
+    data_source: ots
+  ots2_e_feedline_cr1:
+    max_value: 0.0102945
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: DUMP_LOCATION_SNAME_CR01
+    data_source: ots
+  ots2_e_feedline_cr4:
+    max_value: 0.518052
+    min_value: 0.2981332
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: DUMP_LOCATION_SNAME_CR04
+    data_source: ots
+  ots2_e_feedline_cr5:
+    max_value: 0.6840727
+    min_value: 0.47752
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: DUMP_LOCATION_SNAME_CR05
+    data_source: ots
+  ots2_e_feedline_cu:
+    max_value: 0.3547391
+    min_value: 0.2260851
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Cu
+    data_source: ots
+  ots2_e_feedline_cu_25:
+    max_value: 0.3453027
+    min_value: 0.1779195
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Cu25
+    data_source: ots
+  ots2_e_feedline_ef:
+    max_value: 1.4660189
+    min_value: 1.026971
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_EF
+    data_source: ots
+  ots2_e_feedline_fe:
+    max_value: 0.8393894
+    min_value: 0.6412507
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Fe
+    data_source: ots
+  ots2_e_feedline_gypsum_1:
+    max_value: 1.0
+    min_value: 1.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_gypsum_1
+    data_source: ots
+  ots2_e_feedline_hardness:
+    max_value: 62.7228207
+    min_value: 52.2348113
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Hd
+    data_source: ots
+  ots2_e_feedline_highmont:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: load_pit_H
+    data_source: ots
+  ots2_e_feedline_lithology_12:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_12
+    data_source: ots
+  ots2_e_feedline_lithology_13:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_13
+    data_source: ots
+  ots2_e_feedline_lithology_14:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_14
+    data_source: ots
+  ots2_e_feedline_lithology_16:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_16
+    data_source: ots
+  ots2_e_feedline_lithology_17:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_17
+    data_source: ots
+  ots2_e_feedline_lithology_19:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_19
+    data_source: ots
+  ots2_e_feedline_lithology_2:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_2
+    data_source: ots
+  ots2_e_feedline_lithology_26:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_26
+    data_source: ots
+  ots2_e_feedline_lithology_4:
+    max_value: 0.9855575
+    min_value: 0.7226876
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_4
+    data_source: ots
+  ots2_e_feedline_lithology_40:
+    max_value: 0.2668199
+    min_value: 0.0112848
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_40
+    data_source: ots
+  ots2_e_feedline_lithology_41:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_41
+    data_source: ots
+  ots2_e_feedline_lithology_42:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_42
+    data_source: ots
+  ots2_e_feedline_lithology_43:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_43
+    data_source: ots
+  ots2_e_feedline_lithology_6:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_6
+    data_source: ots
+  ots2_e_feedline_lithology_8:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_lithology_8
+    data_source: ots
+  ots2_e_feedline_lornex:
+    max_value: 0.0104925
+    min_value: 0.0015134
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: load_pit_L
+    data_source: ots
+  ots2_e_feedline_mo:
+    max_value: 0.0032396
+    min_value: 0.0016811
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Mo
+    data_source: ots
+  ots2_e_feedline_pc:
+    max_value: 0.6263536
+    min_value: 0.1622648
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_PC
+    data_source: ots
+  ots2_e_feedline_pyrite:
+    max_value: 0.0451176
+    min_value: 0.0273254
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: pyrite
+    data_source: ots
+  ots2_e_feedline_rec_cu_lab:
+    max_value: 90.6169439
+    min_value: 82.2902305
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_Rec_Cu_lab
+    data_source: ots
+  ots2_e_feedline_s:
+    max_value: 0.7476695
+    min_value: 0.456341
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_S
+    data_source: ots
+  ots2_e_feedline_td_1901:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1901
+    data_source: ots
+  ots2_e_feedline_td_1902:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1902
+    data_source: ots
+  ots2_e_feedline_td_1903:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1903
+    data_source: ots
+  ots2_e_feedline_td_1904:
+    max_value: 0.9999995
+    min_value: 0.9456058
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1904
+    data_source: ots
+  ots2_e_feedline_td_1905:
+    max_value: 0.0471096
+    min_value: 5.0e-07
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1905
+    data_source: ots
+  ots2_e_feedline_td_1906:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1906
+    data_source: ots
+  ots2_e_feedline_td_1907:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1907
+    data_source: ots
+  ots2_e_feedline_td_1908:
+    max_value: 0.0296564
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TD_1908
+    data_source: ots
+  ots2_e_feedline_tpod:
+    max_value: 2148.2849822
+    min_value: 326.5362408
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_TPOD
+    data_source: ots
+  ots2_e_feedline_ucs:
+    max_value: 106.2407009
+    min_value: 102.6528449
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: ucs
+    data_source: ots
+  ots2_e_feedline_valley:
+    max_value: 0.9984866
+    min_value: 0.9895075
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: load_pit_V
+    data_source: ots
+  ots2_e_feedline_yellow_fz:
+    max_value: 0.0
+    min_value: 0.0
+    record_count: 12.0
+    fill_type: null
+    entity: grind_E_entry
+    record: block_yellow_fz
+    data_source: ots
+  psi_a1_line_100_mesh_pct:
+    max_value: 62.8
+    min_value: -1.0
+    record_count: 6.0
+    fill_type: null
+    entity: '176'
+    record: '6586'
+    data_source: capstone
+  psi_a2_line_100_mesh_pct:
+    max_value: 53.3
+    min_value: -1.0
+    record_count: 1.0
+    fill_type: null
+    entity: '176'
+    record: '6686'
+    data_source: capstone
+  psi_b1_line_100_mesh_pct:
+    max_value: 76.9
+    min_value: -1.0
+    record_count: 11.0
+    fill_type: null
+    entity: '176'
+    record: '6786'
+    data_source: capstone
+  psi_b2_line_100_mesh_pct:
+    max_value: 47.0
+    min_value: -1.0
+    record_count: 1.0
+    fill_type: null
+    entity: '178'
+    record: '8060'
+    data_source: capstone
+  psi_c1_line_100_mesh_pct:
+    max_value: 49.1
+    min_value: -1.0
+    record_count: 1.0
+    fill_type: null
+    entity: '178'
+    record: '8160'
+    data_source: capstone
+  psi_c2_line_100_mesh_pct:
+    max_value: 52.8
+    min_value: -1.0
+    record_count: 1.0
+    fill_type: null
+    entity: '178'
+    record: '8260'
+    data_source: capstone
+  psi_d3_line_100_mesh_pct:
+    max_value: 9999.0
+    min_value: 29.2
+    record_count: 8.0
+    fill_type: null
+    entity: '180'
+    record: '8584'
+    data_source: capstone
+  psi_d_line_100_mesh_pct:
+    max_value: 9999.0
+    min_value: 9999.0
+    record_count: 1.0
+    fill_type: null
+    entity: '180'
+    record: '8481'
+    data_source: capstone
+  psi_e_line_100_mesh_pct:
+    max_value: 9999.0
+    min_value: 29.2
+    record_count: 1.0
+    fill_type: null
+    entity: '180'
+    record: '8687'
+    data_source: capstone
+  reclnr_con_pmpbx_level:
+    max_value: 102.76679142857142
+    min_value: 31.056410256410246
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '15943'
+    data_source: capstone
+  reclnr_tails_pmpbx_level:
+    max_value: 103.17708611111115
+    min_value: 7.418593749999999
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '15928'
+    data_source: capstone
+  regrnd_cyc_fd_pmpbox_lvl:
+    max_value: 103.25682727272729
+    min_value: -1.1784722222222224
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4786'
+    data_source: capstone
+  regrnd_mill_fd_pmpbox_lvl:
+    max_value: 103.21178846153848
+    min_value: 12.471249999999998
+    record_count: 59.0
+    fill_type: null
+    entity: '207'
+    record: '4771'
+    data_source: capstone

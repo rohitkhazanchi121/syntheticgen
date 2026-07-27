@@ -1,0 +1,97 @@
+name: $(Build.BuildId)
+trigger:
+  branches:
+    include:
+    - 'main'
+    - 'alpha'
+    - 'beta'
+
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      endpoint: TeckResources
+      name: TeckResources/EnterpriseApps-AzDoPipelineTemplates
+      ref: refs/tags/v5
+variables:
+  azdoOrg: '$(System.CollectionUri)'
+  azdoToken: '$(System.AccessToken)'
+  azdoFeeds: 'Pro-opti'
+
+stages:
+- stage: RunUnittests
+  displayName: "Unittests"
+  variables:
+    - group: da-platform-semantic-release
+  dependsOn: []
+  jobs:
+    - job: RunTests
+      steps:
+        - task: UsePythonVersion@0
+          inputs:
+            versionSpec: "~3.13"
+          displayName: "Install Python"
+
+        - task: PipAuthenticate@1
+          inputs:
+            artifactFeeds: 'Pro-opti'
+            onlyAddExtraIndex: true
+          displayName: "Authenticate with Azure Artifacts"
+
+        - script: |
+            org="$(echo -n "$AZDO_ORG" | awk -F/ '{print $(NF-1)}')"
+            pip install poetry==2.2.1
+            while read feed_spec; do
+              project=''
+              feed="$feed_spec"
+              if [[ "$feed_spec" == *"/"* ]]; then
+                project="$(echo -n "$feed_spec" | cut -d / -f 1)/"
+                feed="$(echo -n "$feed_spec" | cut -d / -f 2)"
+              fi
+              poetry source add --priority=supplemental "$feed_spec" "https://pkgs.dev.azure.com/${org}/${project}_packaging/${feed}/pypi/simple/"
+              poetry config "http-basic.$feed_spec" poetry "$AZDO_TOKEN"
+            done < <(echo "$AZDO_FEEDS" | tr ',' '\n')
+            poetry install
+          displayName: "Install Dependencies"
+          env:
+            AZDO_ORG: https://dev.azure.com/GalileoDigital/
+            AZDO_FEEDS: Pro-opti
+            AZDO_TOKEN: $(System.AccessToken)
+        - script: |
+            mkdir test_artifacts
+            poetry run pytest
+            if [ $? -ne 0 ]; then exit 1; fi
+            ls -R test_artifacts
+          displayName: "Run unit tests"
+
+
+- template: 'Templates/EntApps.yml@templates'
+  parameters:
+    DependsOn:
+      - RunUnittests
+    SemanticRelease:
+      Enabled: true
+      Credential: da-platform-semantic-release
+    Environments:
+      - Name: 'Azdo'
+    Applications:
+      - Name: 'test-orchestrator'
+        Build:
+          Type: 'Python'
+          PythonVersion: '3.13'
+          PyBuildType: 'Poetry'
+          PyArtifactFeeds:
+            - 'Pro-opti'
+          # PyTest: true   # uncomment when ready
+        Trivy:
+          Enabled: true  # enable when not testing
+          FailBuild: true
+          FailSeverity: "CRITICAL,HIGH"
+        Deploy:
+          Targets:
+            - Name: 'Publish'
+              Type: 'Azdo-Python'
+              Environments:
+                - Name: Azdo
+                  PublishVstsFeed: 'Pro-opti'

@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "qa-orchestrator"
+version = "0.0.0"
+description = "A wrapper library for pytest and playwright with service connectors"
+authors = ["Digital Analytics"]
+readme = "README.md"
+include = ["src/qa_orchestrator/services/syn_dataloader/syntheticgen/default_configs/*.yaml"]
+
+[tool.poetry.dependencies]
+python = ">=3.11.10,<3.14"
+pytest = "^8.0.0"
+playwright = "^1.40.0"
+pytest-playwright = "^0.4.0"
+faker = "^20.0.0"
+pytest-asyncio = "^1.3.0"
+pytz = "^2025.2"
+pyyaml = "^6.0.3"
+fastavro = "^1.10.0"
+pytest-timeout = "^2.4.0"
+pytest-dotenv = "^0.5.2"
+inference-core = {version = "^3.0.0", source = "Pro-opti"}
+connecthub = { version = "^2.3.0", source = "Pro-opti", extras = ["http","kubernetes","postgres","azure","sqlalchemy-connections"] }
+
+[tool.poetry.extras]
+azure = ["azure-eventhub", "azure-cosmos","azure-eventhub-checkpointstoreblob-aio"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+python_classes = "Test* *Test *Testing"
+asyncio_mode = "strict"
+addopts = "--cov=src/qa_orchestrator --cov-report=term-missing --cov-report=xml:test_artifacts/coverage.xml --junit-xml=test_artifacts/test-results.xml"
+filterwarnings = [
+  "ignore::DeprecationWarning:pkg_resources.*",
+  "ignore::DeprecationWarning:setuptools.*",
+  "ignore:The configuration option.*",
+]
+
+[tool.poetry.scripts]
+qa-orchestrator = "qa_orchestrator.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "Pro-opti"
+url = "https://pkgs.dev.azure.com/GalileoDigital/_packaging/Pro-opti/pypi/simple/"
+priority = "supplemental"

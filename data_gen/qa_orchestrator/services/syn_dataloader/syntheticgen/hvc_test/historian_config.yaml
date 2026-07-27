@@ -1,0 +1,58 @@
+# ==========================
+# General Settings
+# ==========================
+
+general:
+  seed: 42                            # For reproducible data generation (optional)
+  #### Start_time, end_time, can be used in combination 
+  start_time:   # Optional: ISO format (e.g., "2024-01-01T00:00:00Z")
+  end_time:    # Optional: ISO format
+  duration_hours: 2                   # Used if either start or end not provided, will generate data for this duration from current time defaults to 1 hour
+  default_frequency: "1min"           # Optional: Default frequency for data generation per tag (e.g., "1min", "5min", "1h") If not provided it will be set to 1 minute
+
+# ==========================
+# Output Configuration
+# ==========================
+output:
+  sink: db
+  type: postgresql                  # Optional: For performance tuning
+
+
+# ==========================
+# Schema Mapping
+# ==========================
+schema:
+  field_mapping:                          # (optional) Map field names in tags.yaml (rule file fields) to output schema, if not provided names from tags.yaml will be used as output field names
+    tags: internal_name                 # user header as key, if 
+    fill_type: fill_type
+    entity: entity
+    record: record
+    data_source: data_source
+    quality: quality
+  record_rate_field: "record_count"   # (optional) if specific number of records per tag is needed, otherwise random records will be generated in a hour.
+  range_field_mapping:                    # (optional) if range values for a metric is provided, describe that otherwise random value will be generated
+    agg_value:
+      min: min_value
+      max: max_value
+  tables:
+    one_min_aggregates:
+        load_mode: truncate_load
+        columns:
+          internal_name:
+            type: text
+          fill_type:
+            type: text
+          data_source:
+            type: text
+          timestamp:
+            type: datetime
+          agg_value:
+            type: numeric
+
+
+
+# ==========================
+# Data Rules
+# ==========================
+rules:
+  entity_file: "hvc_test/historian_entity.yaml"  # <-- define rules in a separate file for each tag like min, max value of the tags, number of records to be created per hour based on default frequency in general

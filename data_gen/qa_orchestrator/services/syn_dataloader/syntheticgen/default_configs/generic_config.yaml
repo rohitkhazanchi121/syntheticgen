@@ -1,0 +1,144 @@
+general:
+  seed: 42
+  start_time:
+  end_time:
+  duration_hours: 1
+  default_frequency: "1sec"
+
+output: ## add functionality to just specify type of DB and not pass env/ make use SQLAlchemy
+  sink: db
+  type: postgresql ### postgresql or azure_sql(for Azure SQLDB)
+
+schema:
+  source: yaml # yaml | local_avsc | local_avro | apicurio_registry
+  table_defaults:
+    load_mode: drop_recreate
+    allow_duplicate_timestamps: true
+    record_count: 5000
+  avro:
+    path: 
+  registry:
+    url:
+    group_id: default
+    subject:
+    version:
+    table_name:
+  field_mapping: {}
+  tables:
+    plant_sensor_telemetry:
+      columns:
+
+        reading_id:
+          type: uuid
+          primary_key: true
+
+        sensor_tag:
+          type: string
+          length: 60
+          nullable: false
+          values: ["CONC-TEMP-001", "CONC-TEMP-002", "CONC-PRESS-001",
+                  "CONC-PRESS-002", "CONC-FLOW-001", "CONC-FLOW-002",
+                  "CONC-PH-001", "CONC-LEVEL-001", "CONC-LEVEL-002",
+                  "CONC-VIBR-001", "MILL-TEMP-001", "MILL-PRESS-001",
+                  "FLOT-LEVEL-001", "FLOT-LEVEL-002", "GRIND-RPM-001"]
+
+        reading_timestamp:
+          type: datetime
+          nullable: false
+
+        temperature_c:
+          type: decimal
+          precision: 6
+          scale: 2
+          min: -25.00
+          max: 350.00
+          null_probability: 0.08
+
+        pressure_kpa:
+          type: decimal
+          precision: 8
+          scale: 3
+          min: 0.0
+          max: 15000.000
+          null_probability: 0.08
+
+        flow_rate_m3h:
+          type: float
+          min: 0.0
+          max: 2500.0
+          null_probability: 0.10
+
+        ph_level:
+          type: decimal
+          precision: 4
+          scale: 2
+          min: 0.00
+          max: 14.00
+          null_probability: 0.12
+
+        vibration_mm_s:
+          type: decimal
+          precision: 5
+          scale: 2
+          min: 0.00
+          max: 50.00
+          null_probability: 0.15
+
+        mill_speed_rpm:
+          type: float
+          min: 0.0
+          max: 25.0
+          null_probability: 0.20
+
+        tank_level_pct:
+          type: decimal
+          precision: 5
+          scale: 2
+          min: 0.00
+          max: 100.00
+          null_probability: 0.05
+
+        signal_quality:
+          type: smallint
+          min: 0
+          max: 100
+
+        data_quality_flag:
+          type: string
+          length: 15
+          values: ["GOOD", "SUSPECT", "BAD", "MISSING"]
+          values_probabilities: [0.80, 0.10, 0.05, 0.05]
+
+        alarm_active:
+          type: boolean
+          true_probability: 0.08
+
+        alarm_priority:
+          type: tinyint
+          min: 0
+          max: 4
+          values: [0, 1, 2, 3, 4]
+          values_probabilities: [0.70, 0.12, 0.10, 0.05, 0.03]
+
+        unit_of_measure:
+          type: string
+          length: 20
+          values: ["°C", "kPa", "m³/h", "pH", "mm/s", "RPM", "%"]
+
+        source_system:
+          type: string
+          length: 30
+          values: ["PI-Historian", "OSIsoft-AF", "SCADA-Direct", "Manual"]
+          values_probabilities: [0.50, 0.25, 0.20, 0.05]
+
+        is_interpolated:
+          type: boolean
+          true_probability: 0.12
+
+        inserted_at:
+          type: datetime
+          server_default: CURRENT_TIMESTAMP
+          nullable: false
+
+rules:
+  entity_file:

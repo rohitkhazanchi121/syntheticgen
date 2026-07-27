@@ -7,16 +7,20 @@ load_dotenv()
 
 
 class ConfigLoader:
-    def __init__(self, base_path, config_file):
+    def __init__(self, base_path, config_path):
         self.base_path = base_path
-        self.config_path = Path(os.path.join(self.base_path, config_file))
+        self.config_path = Path(os.path.join(self.base_path, config_path))
         self.config = {}
         self.entity_config = {}
 
     def load_main_config(self):
         if self.config_path and self.config_path.is_file():
-            with open(self.config_path, "r") as yaml_file:
-                self.config = yaml.safe_load(yaml_file)
+            try:
+                with open(self.config_path, "r") as yaml_file:
+                    self.config = yaml.safe_load(yaml_file)
+            except yaml.YAMLError as e:
+                raise ValueError(f"Error parsing config YAML file: {e}")
+            
             required_keys = ["general", "output", "rules", "schema"]
             for key in required_keys:
                 if key not in self.config:
@@ -47,5 +51,9 @@ class ConfigLoader:
         entity_file = Path(entity_config_path)
         if not entity_file.is_file():
             raise FileNotFoundError(f"entity configuration file not found: {entity_config_path}")
-        with open(entity_file, "r") as yaml_file:
-            self.entity_config = yaml.safe_load(yaml_file)
+        
+        try:
+            with open(entity_file, "r") as yaml_file:
+                self.entity_config = yaml.safe_load(yaml_file)
+        except yaml.YAMLError as e:
+            raise ValueError(f"Error parsing entity configuration YAML file: {e}")

@@ -1,0 +1,2216 @@
+## This file will be replaced with metadata from a reference table in the database.
+tags: 
+  sagmill1_bm_sec_final_prima:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 9.278315704605408
+    min_value: 8.841886151617441
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_bn_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.014350729209802422
+    min_value: 0.00018306685026881408
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_bwi:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 13.32219986503961
+    min_value: 12.922790468004015
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cc_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.023112035496394893
+    min_value: 0.00024408014571948998
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_conc_cu_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 29.18359400131348
+    min_value: 22.075980141775954
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_conc_mo:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 50.00000000000002
+    min_value: 49.99999999999998
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cpy_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 1.8900076510954071
+    min_value: 1.3220484627840345
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_crusher_calc_sag1_f80:
+    max_quantity: 17.44
+    min_quantity: 0.79
+    max_total_weight: 17.44
+    min_total_weight: 13.97
+    max_value: 5.26419
+    min_value: 1.65611
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_crusher_calc_sag1_oversize_pct_5:
+    max_quantity: 30.619999999999997
+    min_quantity: 2.06
+    max_total_weight: 30.619999999999997
+    min_total_weight: 21.979999999999997
+    max_value: 14.677834720656724
+    min_value: 6.467784730626943
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_crusher_calc_sag1_undersize_pct_1_5:
+    max_quantity: 30.889999999999997
+    min_quantity: 2.06
+    max_total_weight: 30.889999999999997
+    min_total_weight: 22.48
+    max_value: 70.37544483497096
+    min_value: 53.79398904911931
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cuc_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.05100485854699641
+    min_value: 0.0318427022845126
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cucn_hb:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.07063209263233541
+    min_value: 0.028454256007776048
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cueq_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.7572146651151964
+    min_value: 0.46749907315699424
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cus_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.013754084658770989
+    min_value: 0.007754306319433486
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cush_hb:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.017068714730347066
+    min_value: 0.006827880699207479
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_cut_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.6224074260113064
+    min_value: 0.5031863086736611
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_dwi:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 7.103365805732807
+    min_value: 6.223065400531707
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_fet_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.9402041887159065
+    min_value: 1.9547597431034438
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_fino_rec_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 21.54632292655715
+    min_value: 17.547304867133008
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_fino_rec_mo_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.5679620101616002
+    min_value: 0.333018032463971
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_material_sulf_hb:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 7.891930835734869
+    min_value: 6.803900896151817
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_mo_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 185.24409885748483
+    min_value: 114.60993540925648
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_pp_ganga:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 97.90092886827044
+    min_value: 95.91691022624508
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_prel_bn:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.63099513117844
+    min_value: 0.0
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_prel_cc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.05232277203058655
+    min_value: 0.0
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_prel_cpy:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 91.45650501863672
+    min_value: 40.144699289309266
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_prel_py:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 59.841621645765336
+    min_value: 8.520509446637892
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_py_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.0079362163171135
+    min_value: 0.628550404520776
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_razon_cusgc_cutgc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.023050153162880362
+    min_value: 0.013266233418929558
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_razon_sg:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.400553657754046
+    min_value: 1.9032774529210899
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_rec_cu_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 92.199527639161
+    min_value: 89.73882837791325
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_rec_mo_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 80.67122411727905
+    min_value: 71.74957040498336
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_rqd:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 45.85418642774247
+    min_value: 18.8594522258628
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_rst_cush_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.03272520540479397
+    min_value: 0.010527949818982304
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_s:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 1.5603539672179068
+    min_value: 0.9275935729698254
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_sag_sec_final_prima:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 6.272308498996768
+    min_value: 6.043166109569322
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_scu:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.7150584362865394
+    min_value: 0.3608378719965206
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_ser_musc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 11.128569405516075
+    min_value: 7.644118739929269
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_smec_est:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.2339292540062297
+    min_value: 1.8812506274769143
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_total_arc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.890650836426118
+    min_value: 2.476917141693408
+    record_count: 60.0
+    is_forecast: 1
+  sagmill1_ucs:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 73.86196639898577
+    min_value: 42.39655104373798
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_bm_sec_final_prima:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 9.278315704605408
+    min_value: 8.841886151617441
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_bn_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.014350729209802422
+    min_value: 0.00018306685026881408
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_bwi:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 13.32219986503961
+    min_value: 12.922790468004015
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cc_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.023112035496394893
+    min_value: 0.00024408014571948998
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_conc_cu_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 29.18359400131348
+    min_value: 22.075980141775954
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_conc_mo:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 50.00000000000002
+    min_value: 49.99999999999998
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cpy_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 1.8900076510954071
+    min_value: 1.3220484627840345
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_crusher_calc_sag2_f80:
+    max_quantity: 17.44
+    min_quantity: 0.79
+    max_total_weight: 17.44
+    min_total_weight: 13.97
+    max_value: 5.26419
+    min_value: 1.65611
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_crusher_calc_sag2_oversize_pct_5:
+    max_quantity: 30.619999999999997
+    min_quantity: 2.06
+    max_total_weight: 30.619999999999997
+    min_total_weight: 21.979999999999997
+    max_value: 13.729149228504916
+    min_value: 6.004890031351746
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_crusher_calc_sag2_undersize_pct_1_5:
+    max_quantity: 30.889999999999997
+    min_quantity: 2.06
+    max_total_weight: 30.889999999999997
+    min_total_weight: 22.48
+    max_value: 67.10623658876084
+    min_value: 52.86914305953063
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cuc_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.05100485854699641
+    min_value: 0.0318427022845126
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cucn_hb:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.07063209263233541
+    min_value: 0.028454256007776048
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cueq_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.7572146651151964
+    min_value: 0.46749907315699424
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cus_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.013754084658770989
+    min_value: 0.007754306319433486
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cush_hb:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.017068714730347066
+    min_value: 0.006827880699207479
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_cut_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.6224074260113064
+    min_value: 0.5031863086736611
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_dwi:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 7.103365805732807
+    min_value: 6.223065400531707
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_fet_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.9402041887159065
+    min_value: 1.9547597431034438
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_fino_rec_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 21.54632292655715
+    min_value: 17.547304867133008
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_fino_rec_mo_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.5679620101616002
+    min_value: 0.333018032463971
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_material_sulf_hb:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 7.891930835734869
+    min_value: 6.803900896151817
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_mo_gc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 185.24409885748483
+    min_value: 114.60993540925648
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_pp_ganga:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 97.90092886827044
+    min_value: 95.91691022624508
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_prel_bn:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.63099513117844
+    min_value: 0.0
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_prel_cc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.05232277203058655
+    min_value: 0.0
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_prel_cpy:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 91.45650501863672
+    min_value: 40.144699289309266
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_prel_py:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 59.841621645765336
+    min_value: 8.520509446637892
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_py_peso:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.0079362163171135
+    min_value: 0.628550404520776
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_razon_cusgc_cutgc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.023050153162880362
+    min_value: 0.013266233418929558
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_razon_sg:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.400553657754046
+    min_value: 1.9032774529210899
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_rec_cu_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 92.199527639161
+    min_value: 89.73882837791325
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_rec_mo_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 80.67122411727905
+    min_value: 71.74957040498336
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_rqd:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 45.85418642774247
+    min_value: 18.8594522258628
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_rst_cush_gc:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.03272520540479397
+    min_value: 0.010527949818982304
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_s:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 1.5603539672179068
+    min_value: 0.9275935729698254
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_sag_sec_final_prima:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 6.272308498996768
+    min_value: 6.043166109569322
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_scu:
+    max_quantity: 45.46
+    min_quantity: 0.1
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 0.7150584362865394
+    min_value: 0.3608378719965206
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_ser_musc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 11.128569405516075
+    min_value: 7.644118739929269
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_smec_est:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.2339292540062297
+    min_value: 1.8812506274769143
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_total_arc:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 2.890650836426118
+    min_value: 2.476917141693408
+    record_count: 60.0
+    is_forecast: 1
+  sagmill2_ucs:
+    max_quantity: 81.02999999999999
+    min_quantity: 15.71
+    max_total_weight: 81.03
+    min_total_weight: 55.74
+    max_value: 73.86196639898577
+    min_value: 42.39655104373798
+    record_count: 60.0
+    is_forecast: 1
+  gr_c_pct_cu_rec_lab:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 93.48342058823529
+    min_value: 73.13415389384451
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_rockhard:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 55.468388214790664
+    min_value: 4.232590707377027
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_ccnk:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.7994548143088701
+    min_value: 0.43133805274980797
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_ccnk:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.851680463576159
+    min_value: 0.38090405458080934
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_cu_rec_lab:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 93.75049722387395
+    min_value: 55.79056810000001
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_mo:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.0382275147210266
+    min_value: 0.0015046892222017054
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_mo_rec_lab:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 57.12365944
+    min_value: 37.73451855640327
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_s:
+    max_quantity: 116.82000000000001
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.8115671714850233
+    min_value: 0.41418916404706585
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_class_3:
+    max_quantity: 148.44
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1563.5696977210475
+    min_value: 0.21475317891291673
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_domain_501:
+    max_quantity: 105.0
+    min_quantity: 0.17
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1889.0315040677258
+    min_value: 35.483941134242784
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_fe:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 1.490674970743072
+    min_value: 0.5160340487020636
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_cu_rec_lab:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 91.60670000000002
+    min_value: 55.72059088149555
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_class_1:
+    max_quantity: 176.89
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1228.3675372388589
+    min_value: 0.15612595609562127
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_load_pit_lornex_pit:
+    max_quantity: 160.09
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1832.0311310551708
+    min_value: 0.6989048982609464
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_rockhard:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 55.95546229498769
+    min_value: 4.230407471987601
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_mo:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.020467327969948528
+    min_value: 0.0016132810270541235
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_vol_ratio:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 54.57414280000001
+    min_value: 2.0253793071077397
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_throughput_domains_1904:
+    max_quantity: 77.25
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1472.9287714602008
+    min_value: 0.12593799905262862
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_tpodc:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 230303.18354430376
+    min_value: 112963.42378990733
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pyrite:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.22555260097030447
+    min_value: 0.006331968499999999
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_smc_axb_mean:
+    max_quantity: 128.19
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 48.81199324324325
+    min_value: 44.699722607489605
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_yellow_fz:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.00014
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_tpodc:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 229741.71126760563
+    min_value: 111943.3103448276
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_s:
+    max_quantity: 230.29000000000002
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.9400000000000001
+    max_value: 0.900248250791005
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_domain_502:
+    max_quantity: 173.73
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1266.485146583325
+    min_value: 0.22445669132362436
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pre_con:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.9998792514239218
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_tpod:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 160671.90664851485
+    min_value: 104.09270762711867
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_lithology_40:
+    max_quantity: 22.44
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 261.70746285319194
+    min_value: 0.12392741093461512
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_lithology_4:
+    max_quantity: 134.88
+    min_quantity: 0.04
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1268.2273193359374
+    min_value: 0.27717168125192543
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_yellow_fz:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.00010012944983818768
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_cu_25m:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.6457713105126581
+    min_value: 0.2373472432472086
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pre_con:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_smc_axb_mean:
+    max_quantity: 106.07000000000001
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 51.274
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_load_pit_valley_pit:
+    max_quantity: 106.07000000000001
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1380.3240234375
+    min_value: 0.12543982939306533
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pyrite:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.15591219042047447
+    min_value: 0.0029781905949367088
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_cu:
+    max_quantity: 307.4
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.6535872640743092
+    min_value: 0.3039959987080333
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_mo_rec_lab:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 57.59797733961534
+    min_value: 16.5720814210199
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_domain_503:
+    max_quantity: 137.1
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1694.41070402786
+    min_value: 0.29185351927973757
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_vol_ratio:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 66.94508969728764
+    min_value: 2.1689824281249996
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_vol_ratio:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 66.97517922006345
+    min_value: 3.470371885
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_domain_503:
+    max_quantity: 148.44
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1565.8819463172292
+    min_value: 0.16143665294666273
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_domain_0:
+    max_quantity: 38.04
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 901.8703359310443
+    min_value: 0.13213103246922261
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pyrite:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.22550171384073553
+    min_value: 0.0063319685
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_class_3:
+    max_quantity: 86.62
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 963.4412321497184
+    min_value: 0.10842022037031639
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_rqd:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 89.00000000000001
+    min_value: 23.080063215197693
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_s:
+    max_quantity: 114.58
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.9831928290971895
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_lithology_40:
+    max_quantity: 10.85
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 318.8307910309316
+    min_value: 0.18292806248414878
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_class_0:
+    max_quantity: 107.88
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1105.5165161132813
+    min_value: 0.09890229257084543
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_load_pit_lornex_pit:
+    max_quantity: 306.74
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1928.5404130525146
+    min_value: 1.1767077967954338
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_class_2:
+    max_quantity: 144.91000000000003
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1859.2208183018072
+    min_value: 0.19131868220557852
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_vol_ratio:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 63.85168835932203
+    min_value: 15.050062564285472
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_load_pit_lornex_pit:
+    max_quantity: 137.14
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1309.382486952112
+    min_value: 0.18043688486182877
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_load_pit_valley_pit:
+    max_quantity: 242.76
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1268.2273193359374
+    min_value: 0.27717168125192543
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_ccnk:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.8009060699607501
+    min_value: 0.431262664784683
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_class_3:
+    max_quantity: 93.33
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 941.8710056413646
+    min_value: 0.10265892064839627
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_as:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.002955104282591491
+    min_value: 0.00018072594187926107
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_s:
+    max_quantity: 123.15
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.9836743976111
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_cu_rec_lab:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 91.60670000000002
+    min_value: 55.766700864664834
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_class_0:
+    max_quantity: 39.790000000000006
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 901.8703359310443
+    min_value: 0.13213103246922261
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_as:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.002757691778242588
+    min_value: 9.649818385019064e-05
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_fe:
+    max_quantity: 333.08
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 1.3818330764770508
+    min_value: 0.3603465786033026
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_domain_0:
+    max_quantity: 58.730000000000004
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1036.7702087402345
+    min_value: 0.12543982939306533
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_energy_factor:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 1.605017309594461
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_tpod:
+    max_quantity: 307.4
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 196839.10526032702
+    min_value: 113.94181186704752
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_domain_0:
+    max_quantity: 117.21
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1115.7801879882813
+    min_value: 0.16120401985366864
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_rockhard:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 68.25885287424876
+    min_value: 6.81642886710854
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_as:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.0029551042825914915
+    min_value: 0.00018164838560132628
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pre_con:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.9998801486028106
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_yellow_fz:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 7.325877067201988e-05
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_rqd:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 89.00000000000001
+    min_value: 23.067578449124692
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_cu_25m:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.645339910302817
+    min_value: 0.2269062322579987
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_domain_502:
+    max_quantity: 87.21000000000001
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 757.9511615238753
+    min_value: 0.11592733072144293
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_rqd:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 94.9705882352941
+    min_value: 40.706953546571135
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_fe:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 1.4907246195379484
+    min_value: 0.5158418667135922
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_domain_503:
+    max_quantity: 59.32
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1096.8158711493315
+    min_value: 0.6989048982609464
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_cu_25m:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.41762947461141997
+    min_value: 0.2160942598888889
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_tpodc:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 234312.9756895332
+    min_value: 120811.00000000003
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_lithology_4:
+    max_quantity: 156.08
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1243.8050890175373
+    min_value: 0.1400816974017091
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_smc_axb_mean:
+    max_quantity: 264.09
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 51.27400000000001
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_cu_25m:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.6107582002672508
+    min_value: 0.22555916791628747
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_smc_axb_mean:
+    max_quantity: 105.37
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 51.274
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_mo:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.03633260846437131
+    min_value: 0.00146983901523746
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_as:
+    max_quantity: 307.4
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.002757691778242588
+    min_value: 9.64482555400309e-05
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_rqd:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 95.28123108207616
+    min_value: 24.581798267369376
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_tpod:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 199475.57397944113
+    min_value: 97.824
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_mo_rec_lab:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 57.6443056
+    min_value: 35.72858428411632
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_throughput_domains_1908:
+    max_quantity: 2.13
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 33.83612571101801
+    min_value: 0.42613440605801933
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_throughput_domains_1908:
+    max_quantity: 0.15000000000000002
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 5.73792473427844
+    min_value: 0.22202479433683756
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_fe:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 1.2583612145502356
+    min_value: 0.5254254895870132
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_ccnk:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.8515349392361111
+    min_value: 0.3618884728125
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_throughput_domains_1904:
+    max_quantity: 156.08
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1243.8050890175373
+    min_value: 0.14008169740170912
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_class_2:
+    max_quantity: 78.3
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 986.9722616399289
+    min_value: 0.17825326843008318
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_rockhard:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 63.36371612548829
+    min_value: 19.915873040067094
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_rockhard:
+    max_quantity: 307.4
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 68.32975916338617
+    min_value: 6.819786459700913
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_class_0:
+    max_quantity: 117.21
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1115.7801879882813
+    min_value: 0.16120401985366864
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_load_pit_valley_pit:
+    max_quantity: 128.19
+    min_quantity: 0.17
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1939.8480249780287
+    min_value: 11.40900410113549
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pyrite:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.15611837355521999
+    min_value: 0.003030481535211268
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_cu:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.6533108331170971
+    min_value: 0.2673365920782089
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_energy_factor:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 1.7292434988179668
+    min_value: 0.5333632262051915
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_cu:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.5378940213792066
+    min_value: 0.2829044641283425
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_rqd:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 95.26364810012876
+    min_value: 21.0951666875
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_throughput_domains_1904:
+    max_quantity: 128.19
+    min_quantity: 0.17
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1939.8480249780287
+    min_value: 11.40900410113549
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_class_3:
+    max_quantity: 137.1
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1689.880194124042
+    min_value: 0.4963853691611387
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_lithology_4:
+    max_quantity: 77.25
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1472.9287714602008
+    min_value: 0.12593799905262862
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_throughput_domains_1908:
+    max_quantity: 3.65
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 107.54590861640378
+    min_value: 0.39670457496168
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_domain_501:
+    max_quantity: 185.06
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1902.0204956054688
+    min_value: 0.598372255566868
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_domain_503:
+    max_quantity: 79.24
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 814.3417606306664
+    min_value: 0.16619770995455926
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_mo_rec_lab:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 57.59628878013148
+    min_value: 16.589581916679382
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_domain_501:
+    max_quantity: 192.80999999999997
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1397.98388671875
+    min_value: 0.4695695202541553
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pre_con:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 1.0
+    min_value: 0.06046213787469365
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_vol_ratio:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 54.57414280000001
+    min_value: 2.025578577156594
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_energy_factor:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 1.456
+    min_value: 0.10057978245684064
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_lithology_40:
+    max_quantity: 0.72
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 97.53927951388889
+    min_value: 0.2025754467156513
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_class_2:
+    max_quantity: 146.04
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1876.4440693945114
+    min_value: 0.12438541288012799
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pre_con:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pct_as:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.001958400557390585
+    min_value: 0.0005388254584868883
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_fe:
+    max_quantity: 307.0
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 1.3818330764770508
+    min_value: 0.36120305367787797
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_lithology_40:
+    max_quantity: 0.05
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 0.7348859861573045
+    min_value: 0.300949717129335
+    record_count: 11.0
+    is_forecast: 1
+  gr_a_tpod:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 202196.60614767697
+    min_value: 97.82399999999998
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_domain_503:
+    max_quantity: 66.76
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 742.7607371872576
+    min_value: 0.1084202203703164
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_tpodc:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 183277.64935064936
+    min_value: 115584.19203800044
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_class_2:
+    max_quantity: 67.61000000000001
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1379.020538528614
+    min_value: 0.5379642262178309
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_domain_501:
+    max_quantity: 203.59
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1425.8222900390624
+    min_value: 0.18043688486182877
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_smc_axb_mean:
+    max_quantity: 242.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.9400000000000001
+    max_value: 51.27400000000001
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_domain_502:
+    max_quantity: 86.55
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 699.3702661886791
+    min_value: 0.1565231734180518
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_domain_501:
+    max_quantity: 189.43
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1915.79688546391
+    min_value: 0.45333522928429637
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_class_1:
+    max_quantity: 270.66
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1781.4486346462857
+    min_value: 2.1502013848752384
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_energy_factor:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 1.456
+    min_value: 0.10077629252422379
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_lithology_40:
+    max_quantity: 13.73
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 374.30248163052545
+    min_value: 0.37459635036515937
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_throughput_domains_1908:
+    max_quantity: 4.45
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 122.62217045271512
+    min_value: 0.5217523800882118
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_cu_25m:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.6120823983554757
+    min_value: 0.2255132239086089
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_ccnk:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.8440522506220313
+    min_value: 0.5897019087232855
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_cu:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 0.6638315763204548
+    min_value: 0.19986497388271515
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_s:
+    max_quantity: 249.85000000000002
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.9044963717460632
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_class_1:
+    max_quantity: 117.82000000000001
+    min_quantity: 0.16
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1939.8480249780287
+    min_value: 28.387152907394228
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_tpodc:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 234322.39118925328
+    min_value: 120811.00000000001
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_mo:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.03821803255501004
+    min_value: 0.0015046892222017052
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_energy_factor:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 1.641929279576999
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_pct_mo:
+    max_quantity: 307.4
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.036364883885576064
+    min_value: 0.0014687957005817191
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_load_pit_lornex_pit:
+    max_quantity: 194.65
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1314.8518920898437
+    min_value: 0.3383948078982534
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_class_1:
+    max_quantity: 149.48
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1308.065130433731
+    min_value: 0.1565231734180518
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_class_0:
+    max_quantity: 60.89
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 825.6330481780107
+    min_value: 0.1234270823916069
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_domain_502:
+    max_quantity: 87.81
+    min_quantity: 0.02
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1149.0672127487185
+    min_value: 0.8581579734539163
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_domain_0:
+    max_quantity: 60.89
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 825.6330481780108
+    min_value: 0.12342708239160688
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_domain_502:
+    max_quantity: 111.20999999999998
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1264.113559500487
+    min_value: 0.11223038797112325
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_throughput_domains_1904:
+    max_quantity: 89.41
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1380.3240234375
+    min_value: 0.15425483678871024
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_bn_domain_0:
+    max_quantity: 107.88
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1105.5165161132813
+    min_value: 0.09890229257084544
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_yellow_fz:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 0.00014000000000000001
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_bn_class_0:
+    max_quantity: 58.730000000000004
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1036.7702087402345
+    min_value: 0.12543982939306533
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_pyrite:
+    max_quantity: 204.27
+    min_quantity: 0.17
+    max_total_weight: 206.84
+    min_total_weight: 0.17
+    max_value: 0.09292199112146199
+    min_value: 0.029861158446990447
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_tpod:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 195770.37805199364
+    min_value: 113.94826291336429
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_load_pit_valley_pit:
+    max_quantity: 264.09
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1243.8050890175373
+    min_value: 0.14008169740170912
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_yellow_fz:
+    max_quantity: 307.76
+    min_quantity: 0.0
+    max_total_weight: 315.63
+    min_total_weight: 0.58
+    max_value: 0.00014000000000000001
+    min_value: 0.0
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_pct_cu:
+    max_quantity: 322.46
+    min_quantity: 0.0
+    max_total_weight: 322.46
+    min_total_weight: 0.01
+    max_value: 0.6639554050992846
+    min_value: 0.19974260176169745
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_bn_class_2:
+    max_quantity: 77.02
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1003.3773182203989
+    min_value: 0.17957437783712044
+    record_count: 12.0
+    is_forecast: 1
+  gr_a_lithology_4:
+    max_quantity: 89.41
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1380.3240234375
+    min_value: 0.15425483678871024
+    record_count: 12.0
+    is_forecast: 1
+  gr_d_throughput_domains_1904:
+    max_quantity: 134.88
+    min_quantity: 0.04
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1268.2273193359374
+    min_value: 0.2771716812519255
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_lithology_4:
+    max_quantity: 128.19
+    min_quantity: 0.17
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1939.8480249780287
+    min_value: 11.40900410113549
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_pct_mo_rec_lab:
+    max_quantity: 295.47
+    min_quantity: 0.0
+    max_total_weight: 295.47
+    min_total_weight: 0.1
+    max_value: 57.123564851593194
+    min_value: 34.41124429148636
+    record_count: 12.0
+    is_forecast: 1
+  gr_e_pct_cu_rec_lab:
+    max_quantity: 333.25
+    min_quantity: 0.0
+    max_total_weight: 341.91
+    min_total_weight: 0.03
+    max_value: 93.74934048973607
+    min_value: 34.869105062500005
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_load_pit_lornex_pit:
+    max_quantity: 264.35
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1995.900545453769
+    min_value: 1.9934022350591116
+    record_count: 12.0
+    is_forecast: 1
+  gr_c_bn_class_3:
+    max_quantity: 87.91
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1375.9173698246068
+    min_value: 0.6989048982609464
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_load_pit_valley_pit:
+    max_quantity: 105.37
+    min_quantity: 0.01
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1472.9287714602008
+    min_value: 0.12593799905262862
+    record_count: 12.0
+    is_forecast: 1
+  gr_b_bn_class_1:
+    max_quantity: 158.63
+    min_quantity: 0.03
+    max_total_weight: null
+    min_total_weight: null
+    max_value: 1876.649164916525
+    min_value: 0.6690344089415016
+    record_count: 12.0
+    is_forecast: 1

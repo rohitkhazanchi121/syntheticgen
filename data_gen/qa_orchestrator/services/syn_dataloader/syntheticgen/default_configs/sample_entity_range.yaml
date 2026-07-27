@@ -1,0 +1,12 @@
+## sample entity file in case specific data needs to be generated, update this file name under rules/entity_file in generic_config.yaml
+tags:
+  1stcleaner_feedpump1_pump_run:
+    max_value: 1.0
+    min_value: 0.0
+    record_count: 2.0
+    fill_type: latest
+  1stcleaner_feedpump1_pump_speed:
+    max_value: 84.87607
+    min_value: -9.047631
+    record_count: 46.0
+    fill_type: avg

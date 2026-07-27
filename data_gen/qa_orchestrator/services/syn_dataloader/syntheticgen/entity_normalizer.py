@@ -4,8 +4,15 @@ class EntityNormalizer:
         self.config = config
 
     def normalize(self):
-        entity_key = next(iter(self.entity_config.keys()))
-        entity = self.entity_config.get(entity_key, {})
+        # Handle type-based entity config (doesn't have 'tags' or 'entities' key)
+        if isinstance(self.entity_config, dict) and 'entities' in self.entity_config:
+            entity_key = 'entities'
+            entity = self.entity_config.get(entity_key, {})
+        else:
+            # Handle file-based entity config (has 'tags' key)
+            entity_key = next(iter(self.entity_config.keys()))
+            entity = self.entity_config.get(entity_key, {})
+        
         normalization_rules = self.config.get("filtering", {})
         excluse_entity = normalization_rules.get("exclude_entity", [])
         for ent in excluse_entity:
@@ -18,5 +25,6 @@ class EntityNormalizer:
         default_values = self.config["rules"].get("defaults", {})
         valid_defaults = {k: v for k, v in default_values.items() if v is not None}
         for ent, prop in entity.items():
-            prop.update({k: v for k, v in valid_defaults.items() if prop.get(k) is None})
+            if isinstance(prop, dict):
+                prop.update({k: v for k, v in valid_defaults.items() if prop.get(k) is None})
         return {entity_key: entity}

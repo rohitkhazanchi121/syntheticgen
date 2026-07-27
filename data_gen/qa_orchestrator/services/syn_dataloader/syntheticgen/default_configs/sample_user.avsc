@@ -1,0 +1,115 @@
+{
+  "type": "record",
+  "name": "Employees",
+  "doc": "Source: dbo.Employees",
+  "x-sql-schema": "dbo",
+  "x-sql-table": "Employees",
+  "x-primary-key": ["empID"],
+  "fields": [
+    {
+      "name": "empID",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "x-min": 1,
+      "x-max": 99999
+    },
+    {
+      "name": "firstName",
+      "type": "string",
+      "x-semantic": "first_name"
+    },
+    {
+      "name": "lastName",
+      "type": "string",
+      "x-semantic": "last_name"
+    },
+    {
+      "name": "email",
+      "type": ["null", "string"],
+      "default": null,
+      "x-semantic": "email",
+      "x-null-probability": 0.02
+    },
+    {
+      "name": "joiningDate",
+      "type": { "type": "int", "logicalType": "date" },
+      "x-min": "2015-01-01",
+      "x-max": "2024-12-31"
+    },
+    {
+      "name": "leavingDate",
+      "type": ["null", { "type": "int", "logicalType": "date" }],
+      "default": null,
+      "x-null-probability": 0.75,
+      "x-min": "2020-01-01",
+      "x-max": "2025-12-31"
+    },
+    {
+      "name": "isActive",
+      "type": "boolean",
+      "x-true-probability": 0.92
+    },
+    {
+      "name": "departmentName",
+      "type": [
+        "null",
+        {
+          "type": "enum",
+          "name": "DepartmentEnum",
+          "symbols": ["HR", "IT", "Admin", "Logistics", "Marketing", "Operations"]
+        }
+      ],
+      "default": null,
+      "x-values-probabilities": [0.10, 0.35, 0.10, 0.15, 0.15, 0.15]
+    },
+    {
+      "name": "owner",
+      "type": [
+        "null",
+        {
+          "type": "enum",
+          "name": "OwnerEnum",
+          "symbols": ["Ionut", "Muhammad", "Tristan"]
+        }
+      ],
+      "default": null,
+      "x-values-probabilities": [0.33, 0.34, 0.33]
+    },
+    {
+      "name": "created_by",
+      "type": ["null", "string"],
+      "default": null,
+      "x-semantic": "first_name",
+      "x-null-probability": 0.05
+    },
+    {
+      "name": "is_latest",
+      "type": "boolean",
+      "x-true-probability": 0.80
+    },
+    {
+      "name": "inserted_date",
+      "type": ["null", { "type": "long", "logicalType": "timestamp-millis" }],
+      "default": null,
+      "x-server-default": "CURRENT_TIMESTAMP"
+    },
+    {
+      "name": "description",
+      "type": ["null", "string"],
+      "doc": "nvarchar(255)",
+      "default": null,
+      "x-null-probability": 0.30
+    },
+    {
+      "name": "country_code",
+      "type": ["null", "string"],
+      "doc": "nchar (2)",
+      "default": null
+    },
+    {
+      "name": "origin_code",
+      "type": ["null", "string"],
+      "doc": "nchar (5)",
+      "default": null
+    }
+  ]
+}

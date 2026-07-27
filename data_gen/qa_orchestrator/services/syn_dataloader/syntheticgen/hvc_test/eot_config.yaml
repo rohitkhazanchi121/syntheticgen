@@ -1,0 +1,63 @@
+# ==========================
+# General Settings
+# ==========================
+
+general:
+  seed: 42                            # For reproducible data generation (optional)
+  #### Start_time, end_time, can be used in combination 
+  start_time:   # Optional: ISO format (e.g., "2024-01-01T00:00:00Z")
+  end_time:    # Optional: ISO format
+  duration_hours: 2                   # Used if either start or end not provided, will generate data for this duration from current time defaults to 1 hour
+  default_frequency: "1min"           # Optional: Default frequency for data generation per tag (e.g., "1min", "5min", "1h") If not provided it will be set to 1 minute
+
+# ==========================
+# Output Configuration
+# ==========================
+output:
+  sink: db
+  type: postgresql                  # Optional: For performance tuning
+
+
+# ==========================
+# Schema Mapping
+# ==========================
+schema:
+  field_mapping:                          # (optional) Map field names in tags.yaml (rule file fields) to output schema, if not provided names from tags.yaml will be used as output field names
+    tags: entity                 # user header as key, if 
+    is_forecast: is_forecast
+    timestamp: event_timestamp
+  record_rate_field: "record_count"   # (optional) if specific number of records per tag is needed, otherwise random records will be generated in a hour.
+  range_field_mapping:                    # (optional) if range values for a metric is provided, describe that otherwise random value will be generated
+    value:
+      min: min_value
+      max: max_value
+    quantity:
+      min: min_quantity
+      max: max_quantity
+    support:
+      min: min_support
+      max: max_support
+  tables:
+    raw_data_eot:
+        load_mode: truncate_load
+        columns:
+          entity:
+            type: text
+          event_timestamp:
+            type: datetime
+          value:
+            type: numeric
+          quantity:
+            type: numeric
+          support:
+            type: numeric
+          is_forecast:
+            type: numeric
+
+
+
+# ==========================
+# Data Rules
+# ==========================
+rules:
+  entity_file: "eot/eot_entity.yaml"  # <-- define rules in a separate file for each tag like min, max value of the tags, number of records to be created per hour based on default frequency in general
